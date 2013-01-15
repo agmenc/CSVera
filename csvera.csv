@@ -1,4 +1,5 @@
 Project,Started     ,Finished    ,Estimate,Epic     ,Description
+CSVera ,15 Jan 2013 ,            ,1       ,EDITING  ,Make rows move above/below visible rows on table (ignoring filtered rows)
 CSVera ,            ,            ,2       ,EDITING  ,In-cell editing
 CSVera ,            ,            ,1       ,EDITING  ,Add row
 CSVera ,            ,            ,1       ,EDITING  ,Provide one-time drop-downs for cells in new row (with a free text option)
