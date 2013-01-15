@@ -1,0 +1,24 @@
+/*TableLoader*/
+
+td {
+    white-space: nowrap;
+}
+
+thead td {
+    font-weight: bold;
+}
+
+/*TableEditor*/
+
+tr.selected {
+    background-color: #add8e6;
+}
+
+.littleFloater {
+    width: 0; height: 0; position: absolute; left: -10px;
+}
+
+/* TableFilterer */
+.filtered {
+    background-color: #dc143c;
+}
