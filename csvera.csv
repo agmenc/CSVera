@@ -1,5 +1,16 @@
-Project,Started     ,Finished      ,Estimate,Epic    ,Description
-Ark    ,15 Feb 2013 ,26 Feb 2013   ,5       ,MONKEYS ,Initial support for monkeys
-Ramp   ,16 Feb 2013 ,19 Feb 2013   ,2       ,COW     ,Add a single cow (all we will ever need)
-Ark    ,17 Feb 2013 ,23 Feb 2013   ,3       ,FROGS   ,Complete support for any number of frogs
-Ramp   ,25 Feb 2013 ,17 Mar 2013   ,4       ,MONKEYS ,Comprehensive support for monkeys, including small hairy ones
+Project,Started     ,Finished    ,Estimate,Epic     ,Description
+CSVera ,            ,            ,2       ,EDITING  ,In-cell editing
+CSVera ,            ,            ,1       ,EDITING  ,Add row
+CSVera ,            ,            ,1       ,EDITING  ,Provide one-time drop-downs for cells in new row (with a free text option)
+CSVera ,            ,            ,1       ,FILTERS  ,Filter by empty/not empty
+CSVera ,            ,            ,1       ,FILTERS  ,Show all
+CSVera ,            ,            ,1       ,SORTING  ,Sort by column
+CSVera ,            ,            ,2       ,FILES    ,Try a data URI to save the CSV locally
+CSVera ,            ,            ,8       ,FILES    ,Write a Chrome plugin to allow saving
+CSVera ,            ,            ,2       ,FILES    ,Modify the Chrome plugin to allow file loading without -allow-file-access-from-files
+CSVera ,            ,            ,1       ,BOOTSTRAP,Add bootstrap defaults
+CSVera ,            ,            ,1       ,BOOTSTRAP,Adapt table
+CSVera ,            ,            ,1       ,BOOTSTRAP,Adapt edit fields
+CSVera ,            ,            ,1       ,BOOTSTRAP,Adapt drop-downs
+CSVera ,            ,            ,1       ,DATA     ,Pad columns (except the last) out to the width of the widest value
+CSVera ,            ,            ,3       ,DATA     ,Handle data containing commas

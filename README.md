@@ -15,13 +15,20 @@ Usage
 
 Abusage
 =======
-Google Chrome sucks a bit when it comes to security overkill. It won't let one local file AJAX-load another, since they don't appear to have the same origin. Workaround is to start Chrome with this check disabled:
- ```
- /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --allow-file-access-from-files
- ```
+Google Chrome sucks a bit when it comes to security overkill. It won't let one local file AJAX-load another, since file:/// URLs don't have any origin, therefore violate the same origin policy. The workaround is to start Chrome with this check disabled.
+
+Mac:
+```
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --allow-file-access-from-files
+```
+
+Windows:
+```
+"C:\Documents and Settings\smitagme\Local Settings\Application Data\Google\Chrome\Application\chrome.exe"   --allow-file-access-from-files
+```
 
 Unfeatures
-=======
+==========
 
 CSVera does not yet do:
 * Saving back to the original file. Javascript isn't allowed to do this. The workarounds are hideous. I might do one later.

@@ -12,19 +12,10 @@
     <script src="tableFilterer.js" type="text/javascript"></script>
 </head>
 <body>
-<!--TODO - CAS - 14/01/13
- - Show based on [EMPTY, NOT EMPTY]
- - Show all
- - Edit cells by adding an input field
- - New (Clone) - CTRL-D (  if (event.ctrlKey) ... )
- - Sort
- -->
-
 <div id="editorControlPanel"></div>
 <table id="editor"></table>
-
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
         new TableLoader("editor", "../csvera.csv", editTable);
     });
 
@@ -33,6 +24,5 @@
         new TableFilterer("editor");
     }
 </script>
-
 </body>
 </html>
