@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Features Editor</title>
-    <link href="features.css" rel="stylesheet"/>
+    <link href="csvera.css" rel="stylesheet"/>
     <script src="jquery-1.7.1.min.js" type="text/javascript"></script>
     <script src="jquery.inc-6.js" type="text/javascript"></script>
     <script src="underscore-min.js" type="text/javascript"></script>
@@ -13,16 +13,11 @@
 </head>
 <body>
 <!--TODO - CAS - 14/01/13
- - Filters
- ==> Show projects: [DCS, JAWP, JTOMAS, ...]
- ==> Show epics: [REPORTS, FRA, NOISE, ...]
- ==> Show date completed: [EMPTY, NOT EMPTY]
-    - Epic ==> new Filter(tableId, "Epic")
-    - Project ==> new Filter(tableId, "Project")
-    - Not/done ==> new PresentFilter(tableId, "Date Completed")
+ - Show based on [EMPTY, NOT EMPTY]
+ - Show all
+ - Edit cells by adding an input field
  - New (Clone) - CTRL-D (  if (event.ctrlKey) ... )
  - Sort
- - Edit
  -->
 
 <div id="editorControlPanel"></div>
@@ -30,7 +25,7 @@
 
 <script>
     $(document).ready(function() {
-        new TableLoader("editor", "../../features.csv", editTable);
+        new TableLoader("editor", "../csvera.csv", editTable);
     });
 
     function editTable() {

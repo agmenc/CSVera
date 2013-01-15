@@ -1,0 +1,5 @@
+Project,Started     ,Finished      ,Estimate,Epic    ,Description
+Ark    ,15 Feb 2013 ,26 Feb 2013   ,5       ,MONKEYS ,Initial support for monkeys
+Ramp   ,16 Feb 2013 ,19 Feb 2013   ,2       ,COW     ,Add a single cow (all we will ever need)
+Ark    ,17 Feb 2013 ,23 Feb 2013   ,3       ,FROGS   ,Complete support for any number of frogs
+Ramp   ,25 Feb 2013 ,17 Mar 2013   ,4       ,MONKEYS ,Comprehensive support for monkeys, including small hairy ones

@@ -13,6 +13,13 @@ Usage
 * Click column headings to activate the filters.
 * Use CTRL-A then CTRL-C to copy the contents back to the original file.
 
+Abusage
+=======
+Google Chrome sucks a bit when it comes to security overkill. It won't let one local file AJAX-load another, since they don't appear to have the same origin. Workaround is to start Chrome with this check disabled:
+ ```
+ /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --allow-file-access-from-files
+ ```
+
 Unfeatures
 =======
 

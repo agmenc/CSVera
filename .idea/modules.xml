@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/features.iml" filepath="$PROJECT_DIR$/features.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CSVera.iml" filepath="$PROJECT_DIR$/CSVera.iml" />
     </modules>
   </component>
 </project>
