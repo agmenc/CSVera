@@ -6,13 +6,21 @@ function TableEditor(tableId, csvExtractor) {
     $(targetTableId).after("<textarea id='focusableField' type='text' class='littleFloater' name='whatever' value='whatever'/>");
 
     $(targetTableId).find("tbody tr").click(function() {
-        if ($selectedRow) $selectedRow.removeClass("selected");
+        clearSelection();
         $selectedRow = $(this);
         $(this).addClass("selected");
         moveFocusHack(event.pageY);
     });
 
-    $(focusableField).keydown(typing)
+    $(focusableField).keydown(typing);
+
+    $(focusableField).blur(clearSelection);
+
+    function clearSelection() {
+        if ($selectedRow) {
+            $selectedRow.removeClass("selected");
+        }
+    }
 
     function typing(event) {
         switch (event.which) {

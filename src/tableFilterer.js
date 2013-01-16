@@ -16,18 +16,25 @@ function TableFilterer(tableId) {
 
         function showOptions() {
             $columnHeading.off("click.ColumnFilterer");
-            var selectBox = "<select name='" + originalText + "'>" + options() + "</select>";
-            $columnHeading.html(selectBox);
-            $columnHeading.find("select").change(chooseOption);
+            $columnHeading.html("<select name='" + originalText + "'>" + options() + "</select>");
+            var selector = $columnHeading.find("select");
+            selector.change(chooseOption)
+                    .blur(restoreHeading)
+                    .attr("size", selector.find("option").size())
+                    .focus();
         }
 
         function chooseOption() {
-            $columnHeading.html(originalText);
             filter($(this).val().trim());
             $(targetTableId).find("thead .filtered").each(function() {
                 $(this).removeClass("filtered");
             });
+            restoreHeading();
             $columnHeading.addClass("filtered");
+        }
+
+        function restoreHeading() {
+            $columnHeading.html(originalText);
             prime();
         }
 
