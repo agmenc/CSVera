@@ -5,6 +5,8 @@ CSVera is a browser-based CSV editor. It doesn't require a server to run. It is 
 
 I use it to edit a prioritised feature-list for applications I am working on. This is checked-in to source control, and my collaborators can also edit it. If I really mess things up, I revert the change.
 
+You can display the current feature list to non-techies via a continuous integration server, such as TeamCity.
+
 Usage
 =====
 * Modify the file csvera.html so that it points to your own CSV file. This should have a header row.
