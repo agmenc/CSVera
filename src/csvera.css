@@ -22,3 +22,7 @@ tr.selected {
 .filtered {
     background-color: #dc143c;
 }
+
+.filterSelect {
+    position: absolute;
+}

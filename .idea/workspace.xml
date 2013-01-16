@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="5562192f-9b59-44ff-a99d-23df144706ae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tableEditor.js" afterPath="$PROJECT_DIR$/src/tableEditor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csvera.css" afterPath="$PROJECT_DIR$/src/csvera.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tableFilterer.js" afterPath="$PROJECT_DIR$/src/tableFilterer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -18,11 +18,12 @@
     <file path="/csvExtractor.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358182672355" ignored="false" />
     <file path="/filter.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358272186436" ignored="false" />
     <file path="/fragment.js2" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358185469069" ignored="false" />
-    <file path="/tableFilterer.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358329571907" ignored="false" />
-    <file path="/Dummy.txt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358329000401" ignored="false" />
+    <file path="/tableFilterer.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358362005123" ignored="false" />
+    <file path="/Dummy.txt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358359867999" ignored="false" />
     <file path="/README.md" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358287613418" ignored="false" />
     <file path="/a.java" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358287142036" ignored="false" />
     <file path="/csvera.csv" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358328518378" ignored="false" />
+    <file path="/csvera.css" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358361895190" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +139,7 @@
       <file leaf-file-name="tableFilterer.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tableFilterer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="28" selection-start="780" selection-end="780" vertical-scroll-proportion="0.38050735">
+            <state line="18" column="33" selection-start="544" selection-end="544" vertical-scroll-proportion="0.30040053">
               <folding />
             </state>
           </provider>
@@ -147,7 +148,7 @@
       <file leaf-file-name="csvera.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/csvera.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="30" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
+            <state line="27" column="1" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -185,6 +186,7 @@
         <option value="$PROJECT_DIR$/src/CSVera.html" />
         <option value="$PROJECT_DIR$/csvera.csv" />
         <option value="$PROJECT_DIR$/src/tableEditor.js" />
+        <option value="$PROJECT_DIR$/src/csvera.css" />
         <option value="$PROJECT_DIR$/src/tableFilterer.js" />
       </list>
     </option>
@@ -453,7 +455,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made row-moving ignore hidden rows" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made select box show full-size when you click the table heading, and it gains focus immediately." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -469,6 +471,7 @@
     <MESSAGE value="Correct names and instructions" />
     <MESSAGE value="Update todo list" />
     <MESSAGE value="Made row-moving ignore hidden rows" />
+    <MESSAGE value="Made select box show full-size when you click the table heading, and it gains focus immediately." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -565,13 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/csvera.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="30" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CSVera.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="601" selection-end="601" vertical-scroll-proportion="-8.75">
@@ -614,9 +610,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/csvera.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="1" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/tableFilterer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="28" selection-start="780" selection-end="780" vertical-scroll-proportion="0.38050735">
+        <state line="18" column="33" selection-start="544" selection-end="544" vertical-scroll-proportion="0.30040053">
           <folding />
         </state>
       </provider>

@@ -16,7 +16,7 @@ function TableFilterer(tableId) {
 
         function showOptions() {
             $columnHeading.off("click.ColumnFilterer");
-            $columnHeading.html("<select name='" + originalText + "'>" + options() + "</select>");
+            $columnHeading.append("<select name='" + originalText + "' class='filterSelect'>" + options() + "</select>");
             var selector = $columnHeading.find("select");
             selector.change(chooseOption)
                     .blur(restoreHeading)
