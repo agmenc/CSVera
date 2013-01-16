@@ -24,7 +24,7 @@ Mac:
 
 Windows:
 ```
-"C:\Documents and Settings\smitagme\Local Settings\Application Data\Google\Chrome\Application\chrome.exe"   --allow-file-access-from-files
+"C:\Documents and Settings\username\Local Settings\Application Data\Google\Chrome\Application\chrome.exe"   --allow-file-access-from-files
 ```
 
 Unfeatures
