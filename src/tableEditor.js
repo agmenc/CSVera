@@ -29,7 +29,9 @@ function TableEditor(tableId, csvExtractor) {
     }
 
     function swap(row1, row2) {
-        row1.before(row2);
+        if (row1.css("display") === "none") swap(row1.prev(), row2);
+        else if (row2.css("display") === "none") swap(row1, row2.next());
+        else row1.before(row2);
     }
 
     function moveFocusHack(y) {

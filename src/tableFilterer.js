@@ -7,7 +7,6 @@ function TableFilterer(tableId) {
 
     function ColumnFilterer($columnHeading, columnIndex) {
         var originalText = $columnHeading.html();
-        var selectedValue;
 
         prime();
 
