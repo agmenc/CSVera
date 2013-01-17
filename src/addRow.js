@@ -1,8 +1,10 @@
-function AddRow() {
+function AddRow(whenAdded) {
     this.processKeypress = function($row, event) {
         if (event.ctrlKey && event.which === 68) {
             event.preventDefault();
-            $row.after($row.clone());
+            var $newRow = $row.clone();
+            $row.after($newRow);
+            whenAdded($newRow);
         }
     }
 }
