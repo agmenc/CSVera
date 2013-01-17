@@ -2,7 +2,8 @@ Project,Started     ,Finished    ,Estimate,Epic     ,Description
 CSVera ,15 Jan 2013 ,16 Jan 2013 ,1       ,EDITING  ,Make rows move above/below visible rows on table (ignoring filtered rows)
 CSVera ,16 Jan 2013 ,16 Jan 2013 ,1       ,EDITING  ,When clicking a column heading, the select box should drop down immediately
 CSVera ,16 Jan 2013 ,17 Jan 2013 ,1       ,EDITING  ,Add row
-CSVera ,17 Jan 2013 ,17 Jan 2013 ,2       ,EDITING  ,In-cell editing
+CSVera ,17 Jan 2013 ,            ,2       ,EDITING  ,In-cell editing
+CSVera ,17 Jan 2013 ,            ,2       ,EDITING  ,Make input fields exactly the same size as the table cell
 CSVera ,            ,            ,2       ,DEPLOY   ,Create a nice minified package for installers
 CSVera ,            ,            ,1       ,EDITING  ,Print usage information to the console (click, double-click, all key-bindings)
 CSVera ,            ,            ,1       ,EDITING  ,Provide one-time drop-downs for cells in new row (with a free text option)

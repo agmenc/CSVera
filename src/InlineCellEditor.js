@@ -1,7 +1,7 @@
 function InlineCellEditor(tableId) {
     var targetTableId = "#" + tableId;
 
-    $(targetTableId).find("td").each(function() {
+    $(targetTableId).find("td").each(function () {
         new CellEditor($(this));
     });
 
@@ -13,11 +13,9 @@ function InlineCellEditor(tableId) {
             originalText = $cell.text();
             $cell.html("<input type='text' value='" + originalText + "'/>");
             var inputField = $cell.find("input");
-            inputField.blur(function() {
-                $cell.html(originalText);
-            });
-            inputField.focus();
-//            mouseEvent.stopPropagation();
+            inputField.blur(function () { $cell.html(inputField.val()) })
+                    .click(function (event) { event.stopPropagation() })
+                    .focus();
         }
     }
 }
