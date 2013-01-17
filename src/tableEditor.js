@@ -13,8 +13,8 @@ function TableEditor(tableId, csvExtractor) {
         prime(0, $row.get(0));
     }
 
-    function rowMoved($row) {
-        //
+    function rowMoved() {
+        $(focusableField).text(csvExtractor());
     }
 
     function prime(index, row) {
@@ -28,37 +28,18 @@ function TableEditor(tableId, csvExtractor) {
     }
 
     function clearSelection() {
-        if ($selectedRow) {
-            $selectedRow.removeClass("selected");
-        }
+        if ($selectedRow) $selectedRow.removeClass("selected");
     }
 
     function typing(event) {
         clearSelection();
 
-//        TODO - CAS - 17/01/2013 - Make these bindings?
-        switch (event.which) {
-            case 38: swap($selectedRow.prev(), $selectedRow); break;
-            case 40: swap($selectedRow, $selectedRow.next()); break;
-        }
-
         keyBindings.forEach(function(binding) {
             binding.processKeypress($selectedRow, event);
         });
 
-        if ($.inArray(event.which, [38, 40]) > -1) {
-            event.preventDefault();
-            $(focusableField).text(csvExtractor());
-        }
-
         $selectedRow.addClass("selected");
         moveFocusHack();
-    }
-
-    function swap(row1, row2) {
-        if (row1.css("display") === "none") swap(row1.prev(), row2);
-        else if (row2.css("display") === "none") swap(row1, row2.next());
-        else row1.before(row2);
     }
 
     function moveFocusHack() {
