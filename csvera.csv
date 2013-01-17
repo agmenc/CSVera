@@ -1,7 +1,6 @@
 Project,Started     ,Finished    ,Estimate,Epic     ,Description
 CSVera ,15 Jan 2013 ,16 Jan 2013 ,1       ,EDITING  ,Make rows move above/below visible rows on table (ignoring filtered rows)
-CSVera ,            ,            ,1       ,EDITING  ,When clicking a column heading, the select box should drop down immediately
-CSVera ,            ,            ,1       ,EDITING  ,When choosing a value to filter by, focus should move back to the littleFloater
+CSVera ,16 Jan 2013 ,16 Jan 2013 ,1       ,EDITING  ,When clicking a column heading, the select box should drop down immediately
 CSVera ,            ,            ,1       ,EDITING  ,Add row
 CSVera ,            ,            ,2       ,EDITING  ,In-cell editing
 CSVera ,            ,            ,2       ,DEPLOY   ,Create a nice minified package for installers
@@ -14,7 +13,7 @@ CSVera ,            ,            ,2       ,FILES    ,Try the TiddlyWiki save
 CSVera ,            ,            ,8       ,FILES    ,Otherwise, write a Chrome plugin to allow saving
 CSVera ,            ,            ,2       ,FILES    ,Modify the Chrome plugin to allow file loading without -allow-file-access-from-files
 CSVera ,            ,            ,2       ,FILES    ,Allow users to select CSVs from a file dialog
-CSVera ,            ,            ,1       ,BOOTSTRAP,Add bootstrap defaults
+CSVera ,            ,            ,1       ,BOOTSTRAP,Add bootstrap defaults. Must remain usable without Bootstrap
 CSVera ,            ,            ,1       ,BOOTSTRAP,Adapt table
 CSVera ,            ,            ,1       ,BOOTSTRAP,Adapt edit fields
 CSVera ,            ,            ,1       ,BOOTSTRAP,Adapt drop-downs

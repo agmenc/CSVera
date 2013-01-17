@@ -2,6 +2,7 @@ function TableEditor(tableId, csvExtractor) {
     var targetTableId = "#" + tableId;
     var focusableField = "#focusableField";
     var $selectedRow;
+    var keyBindings = [new AddRow(), new LogKey()];
 
     $(targetTableId).after("<textarea id='focusableField' type='text' class='littleFloater' name='whatever' value='whatever'/>");
 
@@ -23,16 +24,23 @@ function TableEditor(tableId, csvExtractor) {
     }
 
     function typing(event) {
+        clearSelection();
+
         switch (event.which) {
             case 38: swap($selectedRow.prev(), $selectedRow); break;
             case 40: swap($selectedRow, $selectedRow.next()); break;
         }
+
+        keyBindings.forEach(function(binding) {
+            binding.processKeypress($selectedRow, event);
+        });
 
         if ($.inArray(event.which, [38, 40]) > -1) {
             event.preventDefault();
             $(focusableField).text(csvExtractor());
         }
 
+        $selectedRow.addClass("selected");
         moveFocusHack($selectedRow.position().top);
     }
 
