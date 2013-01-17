@@ -14,3 +14,9 @@ function LogKey() {
         console.log(event.which);
     }
 }
+
+function MoveRow() {
+    this.processKeypress = function($row, event) {
+        //
+    }
+}

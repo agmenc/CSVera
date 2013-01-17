@@ -2,7 +2,7 @@ function TableEditor(tableId, csvExtractor) {
     var targetTableId = "#" + tableId;
     var focusableField = "#focusableField";
     var $selectedRow;
-    var keyBindings = [new AddRow(rowAdded), new LogKey()];
+    var keyBindings = [new AddRow(rowAdded), new MoveRow(rowMoved), new LogKey()];
 
     $(targetTableId).after("<textarea id='focusableField' type='text' class='littleFloater' name='whatever' value='whatever'/>");
     $(targetTableId).find("tbody tr").each(prime)
@@ -13,13 +13,17 @@ function TableEditor(tableId, csvExtractor) {
         prime(0, $row.get(0));
     }
 
+    function rowMoved($row) {
+        //
+    }
+
     function prime(index, row) {
         var $row = $(row);
         $row.click(function() {
             clearSelection();
             $selectedRow = $row;
             $row.addClass("selected");
-            moveFocusHack(event.pageY);
+            moveFocusHack();
         });
     }
 
@@ -48,7 +52,7 @@ function TableEditor(tableId, csvExtractor) {
         }
 
         $selectedRow.addClass("selected");
-        moveFocusHack($selectedRow.position().top);
+        moveFocusHack();
     }
 
     function swap(row1, row2) {
@@ -57,8 +61,8 @@ function TableEditor(tableId, csvExtractor) {
         else row1.before(row2);
     }
 
-    function moveFocusHack(y) {
-        $(focusableField).offset({ top: y, left: -10 });
+    function moveFocusHack() {
+        $(focusableField).offset({ top: $selectedRow.position().top, left: -10 });
         $(focusableField).focus();
     }
 }
