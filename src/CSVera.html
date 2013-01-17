@@ -11,6 +11,7 @@
     <script src="csvExtractor.js" type="text/javascript"></script>
     <script src="tableFilterer.js" type="text/javascript"></script>
     <script src="keyBindings.js" type="text/javascript"></script>
+    <script src="InlineCellEditor.js" type="text/javascript"></script>
 </head>
 <body>
 <div id="editorControlPanel"></div>
@@ -23,6 +24,7 @@
     function editTable() {
         new TableEditor("editor", new CsvExtractor("editor").extract);
         new TableFilterer("editor");
+        new InlineCellEditor("editor");
     }
 </script>
 </body>

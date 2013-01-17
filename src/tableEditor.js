@@ -31,11 +31,11 @@ function TableEditor(tableId, csvExtractor) {
         if ($selectedRow) $selectedRow.removeClass("selected");
     }
 
-    function typing(event) {
+    function typing(keyEvent) {
         clearSelection();
 
         keyBindings.forEach(function(binding) {
-            binding.processKeypress($selectedRow, event);
+            binding.processKeypress($selectedRow, keyEvent);
         });
 
         $selectedRow.addClass("selected");
