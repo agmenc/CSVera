@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5562192f-9b59-44ff-a99d-23df144706ae" name="Default" comment="Make inline cell editing work properly">
+    <list default="true" id="5562192f-9b59-44ff-a99d-23df144706ae" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InlineCellEditor.js" afterPath="$PROJECT_DIR$/src/InlineCellEditor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csvera.css" afterPath="$PROJECT_DIR$/src/csvera.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csvera.csv" afterPath="$PROJECT_DIR$/csvera.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/keyBindings.js" afterPath="$PROJECT_DIR$/src/keyBindings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tableEditor.js" afterPath="$PROJECT_DIR$/src/tableEditor.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="features.iws" />
@@ -20,18 +20,18 @@
     <file path="/filter.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358272186436" ignored="false" />
     <file path="/fragment.js2" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358185469069" ignored="false" />
     <file path="/tableFilterer.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358362005123" ignored="false" />
-    <file path="/Dummy.txt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358504530465" ignored="false" />
+    <file path="/Dummy.txt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358506126610" ignored="false" />
     <file path="/README.md" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358287613418" ignored="false" />
     <file path="/a.java" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358458603655" ignored="false" />
-    <file path="/csvera.csv" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358462416102" ignored="false" />
-    <file path="/csvera.css" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358361895190" ignored="false" />
+    <file path="/csvera.csv" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358507103174" ignored="false" />
+    <file path="/csvera.css" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358511162820" ignored="false" />
     <file path="/keyBindings.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358505410308" ignored="false" />
     <file path="/CSVera.html" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358461342514" ignored="false" />
     <file path="/addRow.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358418821203" ignored="false" />
     <file path="/a.dummy" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358415180396" ignored="false" />
     <file path="/selectionManager.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358456704858" ignored="false" />
     <file path="/DatePicker.html" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358460385105" ignored="false" />
-    <file path="/InlineCellEditor.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358462177549" ignored="false" />
+    <file path="/InlineCellEditor.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358510470956" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +94,7 @@
       <file leaf-file-name="CSVera.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CSVera.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="36" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0">
+            <state line="13" column="36" selection-start="688" selection-end="688" vertical-scroll-proportion="-8.125">
               <folding />
             </state>
           </provider>
@@ -103,7 +103,7 @@
       <file leaf-file-name="InlineCellEditor.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/InlineCellEditor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="25" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
+            <state line="17" column="47" selection-start="569" selection-end="588" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -112,16 +112,16 @@
       <file leaf-file-name="DatePicker.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DatePicker.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="228" column="16" selection-start="4386" selection-end="4386" vertical-scroll-proportion="0.0">
+            <state line="228" column="16" selection-start="4386" selection-end="4386" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="keyBindings.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="keyBindings.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/keyBindings.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="1" selection-start="367" selection-end="367" vertical-scroll-proportion="0.28037384">
+            <state line="21" column="9" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -136,10 +136,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="csvera.csv" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="csvera.csv" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/csvera.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="32" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
+            <state line="6" column="33" selection-start="575" selection-end="575" vertical-scroll-proportion="0.120160215">
               <folding />
             </state>
           </provider>
@@ -157,7 +157,7 @@
       <file leaf-file-name="csvera.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/csvera.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="1" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
+            <state line="32" column="23" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -192,15 +192,15 @@
         <option value="$PROJECT_DIR$/src/features.css" />
         <option value="$PROJECT_DIR$/src/features.html" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/csvera.css" />
         <option value="$PROJECT_DIR$/src/tableFilterer.js" />
         <option value="$PROJECT_DIR$/src/addRow.js" />
         <option value="$PROJECT_DIR$/src/selectionManager.js" />
         <option value="$PROJECT_DIR$/src/DatePicker.html" />
         <option value="$PROJECT_DIR$/src/CSVera.html" />
-        <option value="$PROJECT_DIR$/src/InlineCellEditor.js" />
         <option value="$PROJECT_DIR$/src/keyBindings.js" />
         <option value="$PROJECT_DIR$/src/tableEditor.js" />
+        <option value="$PROJECT_DIR$/src/InlineCellEditor.js" />
+        <option value="$PROJECT_DIR$/src/csvera.css" />
         <option value="$PROJECT_DIR$/csvera.csv" />
       </list>
     </option>
@@ -240,7 +240,7 @@
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
     <ConfirmationsSetting value="2" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+    <ConfirmationsSetting value="2" id="Remove" />
   </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
@@ -301,7 +301,7 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Confirmation" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -441,6 +441,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -450,7 +451,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PMIP" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952926" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -460,7 +460,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
@@ -492,9 +492,9 @@
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make inline cell editing work properly" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix (and understand better) copy-paste of CSV data." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -518,6 +518,7 @@
     <MESSAGE value="Make row move just another key binding" />
     <MESSAGE value="Make inline cell editing work" />
     <MESSAGE value="Make inline cell editing work properly" />
+    <MESSAGE value="Fix (and understand better) copy-paste of CSV data." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -610,19 +611,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jquery-1.7.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="9497" selection-start="9550" selection-end="9550" vertical-scroll-proportion="0.024691358" />
+        <state line="1" column="9497" selection-start="9550" selection-end="9550" vertical-scroll-proportion="0.024691358">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="93" selection-start="1069" selection-end="1098" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csvera.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="1" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/underscore-min.js">
@@ -640,37 +636,9 @@
         <state line="1" column="4" selection-start="62" selection-end="96" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DatePicker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="228" column="16" selection-start="4386" selection-end="4386" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tableFilterer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="4" selection-start="38" selection-end="186" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CSVera.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="36" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InlineCellEditor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csvera.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="32" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -684,7 +652,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/keyBindings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="367" selection-end="367" vertical-scroll-proportion="0.28037384">
+        <state line="21" column="9" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DatePicker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="228" column="16" selection-start="4386" selection-end="4386" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CSVera.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="36" selection-start="688" selection-end="688" vertical-scroll-proportion="-8.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InlineCellEditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="47" selection-start="569" selection-end="588" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/csvera.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="23" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvera.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="33" selection-start="575" selection-end="575" vertical-scroll-proportion="0.120160215">
           <folding />
         </state>
       </provider>

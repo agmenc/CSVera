@@ -4,7 +4,8 @@ CSVera ,16 Jan 2013 ,16 Jan 2013 ,1       ,EDITING  ,When clicking a column head
 CSVera ,16 Jan 2013 ,17 Jan 2013 ,1       ,EDITING  ,Add row
 CSVera ,17 Jan 2013 ,17 Jan 2013 ,2       ,EDITING  ,In-cell editing
 CSVera ,17 Jan 2013 ,18 Jan 2013 ,2       ,BUGS     ,Make copy and paste of CSV work again
-CSVera ,17 Jan 2013 ,            ,2       ,EDITING  ,Make input fields exactly the same size as the table cell
+CSVera ,18 Jan 2013 ,18 Jan 2013 ,2       ,EDITING  ,Make input fields exactly the same size as the table cell
+CSVera ,18 Jan 2013 ,            ,2       ,BUGS     ,In-cell editing should fire a dataChanged update
 CSVera ,            ,            ,2       ,DEPLOY   ,Create a nice minified package for installers
 CSVera ,            ,            ,1       ,EDITING  ,Print usage information to the console (click, double-click, all key-bindings) {only if there is a console}
 CSVera ,            ,            ,1       ,EDITING  ,Make all changed rows and cells a different colour

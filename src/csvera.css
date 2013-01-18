@@ -26,3 +26,9 @@ tr.selected {
 .filterSelect {
     position: absolute;
 }
+
+/* InlineCellEditor */
+.inCellAdams {
+    box-sizing: border-box;
+    position: absolute;
+}

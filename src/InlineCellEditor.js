@@ -11,9 +11,13 @@ function InlineCellEditor(tableId) {
 
         function editCell(mouseEvent) {
             originalText = $cell.text();
-            $cell.html("<input type='text' value='" + originalText + "'/>");
+            $cell.html("<input type='text' class='inCellAdams' value='" + originalText + "'/>");
             var inputField = $cell.find("input");
-            inputField.blur(function () { $cell.html(inputField.val()) })
+
+            inputField.offset($cell.position())
+                    .height($cell.outerHeight())
+                    .width($cell.outerWidth())
+                    .blur(function () { $cell.html(inputField.val()) })
                     .click(function (event) { event.stopPropagation() })
                     .focus();
         }
