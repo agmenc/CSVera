@@ -14,12 +14,14 @@ function LogKey() {
     }
 }
 
-function MoveRow() {
+function MoveRow(whenMoved) {
     this.processKeypress = function($row, event) {
         switch (event.which) {
             case 38: swap($row.prev(), $row); break;
             case 40: swap($row, $row.next()); break;
         }
+
+        whenMoved();
     }
 
     function swap(row1, row2) {

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5562192f-9b59-44ff-a99d-23df144706ae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InlineCellEditor.js" afterPath="$PROJECT_DIR$/src/InlineCellEditor.js" />
+    <list default="true" id="5562192f-9b59-44ff-a99d-23df144706ae" name="Default" comment="Make inline cell editing work properly">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csvera.csv" afterPath="$PROJECT_DIR$/csvera.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/keyBindings.js" afterPath="$PROJECT_DIR$/src/keyBindings.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tableEditor.js" afterPath="$PROJECT_DIR$/src/tableEditor.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="features.iws" />
@@ -12,19 +13,19 @@
     <file path="/test.html" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358161955292" ignored="false" />
     <file path="/save.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358164031609" ignored="false" />
     <file path="/features.css" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358281693052" ignored="false" />
-    <file path="/tableEditor.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358460774597" ignored="false" />
+    <file path="/tableEditor.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358505720739" ignored="false" />
     <file path="/fragment.java" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358176195375" ignored="false" />
     <file path="/tableLoader.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358176623339" ignored="false" />
     <file path="/csvExtractor.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358182672355" ignored="false" />
     <file path="/filter.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358272186436" ignored="false" />
     <file path="/fragment.js2" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358185469069" ignored="false" />
     <file path="/tableFilterer.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358362005123" ignored="false" />
-    <file path="/Dummy.txt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358461919731" ignored="false" />
+    <file path="/Dummy.txt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358504530465" ignored="false" />
     <file path="/README.md" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358287613418" ignored="false" />
     <file path="/a.java" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358458603655" ignored="false" />
-    <file path="/csvera.csv" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358462007067" ignored="false" />
+    <file path="/csvera.csv" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358462416102" ignored="false" />
     <file path="/csvera.css" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358361895190" ignored="false" />
-    <file path="/keyBindings.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358412121884" ignored="false" />
+    <file path="/keyBindings.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358505410308" ignored="false" />
     <file path="/CSVera.html" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358461342514" ignored="false" />
     <file path="/addRow.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358418821203" ignored="false" />
     <file path="/a.dummy" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358415180396" ignored="false" />
@@ -93,16 +94,16 @@
       <file leaf-file-name="CSVera.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CSVera.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="36" selection-start="688" selection-end="688" vertical-scroll-proportion="-8.125">
+            <state line="13" column="36" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InlineCellEditor.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="InlineCellEditor.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/InlineCellEditor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="22" selection-start="568" selection-end="568" vertical-scroll-proportion="0.32042724">
+            <state line="8" column="25" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -111,16 +112,16 @@
       <file leaf-file-name="DatePicker.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DatePicker.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="228" column="16" selection-start="4386" selection-end="4386" vertical-scroll-proportion="-10.208333">
+            <state line="228" column="16" selection-start="4386" selection-end="4386" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="keyBindings.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="keyBindings.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/keyBindings.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="5" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
+            <state line="14" column="1" selection-start="367" selection-end="367" vertical-scroll-proportion="0.28037384">
               <folding />
             </state>
           </provider>
@@ -129,7 +130,7 @@
       <file leaf-file-name="tableEditor.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tableEditor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="19" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0">
+            <state line="4" column="69" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -138,7 +139,7 @@
       <file leaf-file-name="csvera.csv" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/csvera.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="68" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
+            <state line="5" column="32" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -195,12 +196,12 @@
         <option value="$PROJECT_DIR$/src/tableFilterer.js" />
         <option value="$PROJECT_DIR$/src/addRow.js" />
         <option value="$PROJECT_DIR$/src/selectionManager.js" />
-        <option value="$PROJECT_DIR$/src/keyBindings.js" />
         <option value="$PROJECT_DIR$/src/DatePicker.html" />
-        <option value="$PROJECT_DIR$/src/tableEditor.js" />
         <option value="$PROJECT_DIR$/src/CSVera.html" />
-        <option value="$PROJECT_DIR$/csvera.csv" />
         <option value="$PROJECT_DIR$/src/InlineCellEditor.js" />
+        <option value="$PROJECT_DIR$/src/keyBindings.js" />
+        <option value="$PROJECT_DIR$/src/tableEditor.js" />
+        <option value="$PROJECT_DIR$/csvera.csv" />
       </list>
     </option>
   </component>
@@ -309,11 +310,11 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -365,13 +366,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -391,6 +385,13 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="0" />
@@ -440,7 +441,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -450,6 +450,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PMIP" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952926" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -493,7 +494,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make inline cell editing work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make inline cell editing work properly" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -516,6 +517,7 @@
     <MESSAGE value="Make position of focusableField depend on the selected row only." />
     <MESSAGE value="Make row move just another key binding" />
     <MESSAGE value="Make inline cell editing work" />
+    <MESSAGE value="Make inline cell editing work properly" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -527,9 +529,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/csvExtractor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="37" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="37" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/csvera.css">
@@ -548,9 +548,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tableLoader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="38" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="1" column="38" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tableEditor.js">
@@ -562,9 +560,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/csvExtractor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="37" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="37" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tableFilterer.js">
@@ -614,9 +610,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jquery-1.7.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="9497" selection-start="9550" selection-end="9550" vertical-scroll-proportion="0.024691358">
-          <folding />
-        </state>
+        <state line="1" column="9497" selection-start="9550" selection-end="9550" vertical-scroll-proportion="0.024691358" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -633,35 +627,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/underscore-min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="158" selection-start="158" selection-end="158" vertical-scroll-proportion="0.030425964">
-          <folding />
-        </state>
+        <state line="0" column="158" selection-start="158" selection-end="158" vertical-scroll-proportion="0.030425964" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/csvExtractor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="37" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="37" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tableLoader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="4" selection-start="62" selection-end="96" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/keyBindings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="5" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="1" column="4" selection-start="62" selection-end="96" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DatePicker.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="228" column="16" selection-start="4386" selection-end="4386" vertical-scroll-proportion="-10.208333">
+        <state line="228" column="16" selection-start="4386" selection-end="4386" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -675,28 +656,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CSVera.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="36" selection-start="688" selection-end="688" vertical-scroll-proportion="-8.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tableEditor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="19" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csvera.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="68" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
+        <state line="13" column="36" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/InlineCellEditor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="22" selection-start="568" selection-end="568" vertical-scroll-proportion="0.32042724">
+        <state line="8" column="25" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvera.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="32" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tableEditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="69" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/keyBindings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="1" selection-start="367" selection-end="367" vertical-scroll-proportion="0.28037384">
           <folding />
         </state>
       </provider>
