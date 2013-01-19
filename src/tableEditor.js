@@ -2,12 +2,12 @@ function TableEditor(tableId, csvExtractor) {
     var targetTableId = "#" + tableId;
     var focusableField = "#focusableField";
     var $selectedRow;
-    var keyBindings = [new AddRow(rowAdded), new MoveRow(dataChanged)];
+    var keyBindings = [new AddRow(rowAdded), new MoveRow(), new CtrlCmd(dataChanged), new LogKey()];
 
     $(targetTableId).after("<textarea id='focusableField' type='text' class='littleFloater' name='whatever' value='whatever'/>");
-    $(targetTableId).find("tbody tr").each(prime)
-    $(focusableField).keydown(typing);
-    $(focusableField).blur(clearSelection);
+    $(targetTableId).find("tbody tr").each(prime);
+    $(focusableField).keydown(typing).blur(clearSelection);
+    $(targetTableId).find("tbody tr").first().click();
 
     function rowAdded($row) {
         prime(0, $row.get(0));
@@ -19,7 +19,7 @@ function TableEditor(tableId, csvExtractor) {
 
     function prime(index, row) {
         var $row = $(row);
-        $row.click(function() {
+        $row.click(function () {
             clearSelection();
             $selectedRow = $row;
             $row.addClass("selected");
@@ -32,9 +32,11 @@ function TableEditor(tableId, csvExtractor) {
     }
 
     function typing(keyEvent) {
+
+        // Need to only use bindings that recognise the keypress, so that we only clear/move focus when they are executed
         clearSelection();
 
-        keyBindings.forEach(function(binding) {
+        keyBindings.forEach(function (binding) {
             binding.processKeypress($selectedRow, keyEvent);
         });
 

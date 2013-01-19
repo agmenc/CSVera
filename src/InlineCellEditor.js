@@ -9,7 +9,7 @@ function InlineCellEditor(tableId) {
         var originalText;
         $cell.dblclick(editCell);
 
-        function editCell(mouseEvent) {
+        function editCell() {
             originalText = $cell.text();
             $cell.html("<input type='text' class='inCellAdams' value='" + originalText + "'/>");
             var inputField = $cell.find("input");
