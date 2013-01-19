@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5562192f-9b59-44ff-a99d-23df144706ae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/closure-compiler/compiler.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/download/download.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/closure-compiler/COPYING" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/download/CSVera.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/closure-compiler/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/download/csvera.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/download/csvera.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/download/jquery-1.7.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/download/underscore-min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CSVera.html" afterPath="$PROJECT_DIR$/src/CSVera.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/download/CSVera.html" afterPath="$PROJECT_DIR$/download/CSVera.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.sh" afterPath="$PROJECT_DIR$/package.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="features.iws" />
@@ -28,13 +19,13 @@
     <file path="/filter.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358272186436" ignored="false" />
     <file path="/fragment.js2" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358185469069" ignored="false" />
     <file path="/tableFilterer.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358362005123" ignored="false" />
-    <file path="/Dummy.txt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358613535528" ignored="false" />
+    <file path="/Dummy.txt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358616445964" ignored="false" />
     <file path="/README.md" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358287613418" ignored="false" />
     <file path="/a.java" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358458603655" ignored="false" />
     <file path="/csvera.csv" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358613532087" ignored="false" />
     <file path="/csvera.css" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358511162820" ignored="false" />
     <file path="/keyBindings.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358538258812" ignored="false" />
-    <file path="/CSVera.html" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358461342514" ignored="false" />
+    <file path="/CSVera.html" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358616487686" ignored="false" />
     <file path="/addRow.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358418821203" ignored="false" />
     <file path="/a.dummy" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358415180396" ignored="false" />
     <file path="/selectionManager.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358456704858" ignored="false" />
@@ -148,7 +139,16 @@
       <file leaf-file-name="package.sh" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="450" selection-end="450" vertical-scroll-proportion="0.18595041">
+            <state line="3" column="0" selection-start="308" selection-end="308" vertical-scroll-proportion="0.10330579">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CSVera.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/download/CSVera.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="7" selection-start="507" selection-end="507" vertical-scroll-proportion="-9.375">
               <folding />
             </state>
           </provider>
@@ -221,6 +221,7 @@
         <option value="$PROJECT_DIR$/src/keyBindings.js" />
         <option value="$PROJECT_DIR$/src/tableEditor.js" />
         <option value="$PROJECT_DIR$/closure-compiler/minify.sh" />
+        <option value="$PROJECT_DIR$/download/CSVera.html" />
         <option value="$PROJECT_DIR$/package.sh" />
       </list>
     </option>
@@ -545,7 +546,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make the CTRL/CMD-a perform the CSV extraction. Automatically select the first row." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create packaging script and download folder" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -572,6 +573,7 @@
     <MESSAGE value="Fix (and understand better) copy-paste of CSV data." />
     <MESSAGE value="Make in-cell editors the same size as the cells" />
     <MESSAGE value="Make the CTRL/CMD-a perform the CSV extraction. Automatically select the first row." />
+    <MESSAGE value="Create packaging script and download folder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -694,13 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CSVera.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="36" selection-start="688" selection-end="688" vertical-scroll-proportion="-8.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/InlineCellEditor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="30" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
@@ -743,9 +738,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/download/CSVera.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="7" selection-start="507" selection-end="507" vertical-scroll-proportion="-9.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CSVera.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="36" selection-start="688" selection-end="688" vertical-scroll-proportion="-8.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="450" selection-end="450" vertical-scroll-proportion="0.18595041">
+        <state line="3" column="0" selection-start="308" selection-end="308" vertical-scroll-proportion="0.10330579">
           <folding />
         </state>
       </provider>
