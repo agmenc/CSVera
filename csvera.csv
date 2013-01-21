@@ -8,8 +8,8 @@ CSVera ,18 Jan 2013 ,18 Jan 2013 ,2       ,EDITING  ,Make input fields exactly t
 CSVera ,18 Jan 2013 ,19 Jan 2013 ,1       ,BUGS     ,In-cell editing should fire a dataChanged update
 CSVera ,19 Jan 2013 ,21 Jan 2013 ,2       ,DEPLOY   ,Create a nice minified package for installers
 CSVera ,20 Jan 2013 ,21 Jan 2013 ,1       ,DEPLOY   ,Make usage simpler by just annotating the target table with csv="path"
-CSVera ,            ,            ,1       ,DEPLOY   ,Add versioning to packaging system
-CSVera ,            ,            ,1       ,DEPLOY   ,Add versioning and better names: csvera-0.11.zip csvera-0.11-min.js
+CSVera ,21 Jan 2013 ,            ,1       ,DEPLOY   ,Add versioning to packaging system
+CSVera ,            ,            ,1       ,DEPLOY   ,Better names: csvera-0.11.zip csvera-0.11-min.js
 CSVera ,            ,            ,1       ,DEPLOY   ,Check for preconditions in Constructor.js
 CSVera ,            ,            ,1       ,EDITING  ,Print usage information to the console (click; double-click; all keyBindings should self-describe)
 CSVera ,            ,            ,2       ,DEPLOY   ,Update docs to be a bit prettier and more terse

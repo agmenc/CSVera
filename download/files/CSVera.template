@@ -5,10 +5,10 @@
     <link href="csvera.css" rel="stylesheet"/>
     <script src="jquery-1.7.1.min.js" type="text/javascript"></script>
     <script src="underscore-min.js" type="text/javascript"></script>
-    <script src="csvera.js" type="text/javascript"></script>
+    <script src="@CSVERA@" type="text/javascript"></script>
 </head>
 <body>
 <div id="editorControlPanel"></div>
-<table id="editor" csv="../csvera.csv"></table>
+<table id="editor" csv="../../csvera.csv"></table>
 </body>
 </html>
