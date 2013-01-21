@@ -7,6 +7,8 @@ function InlineCellEditor() {
         });
     }
 
+    explain("Double-click a table cell     Edit cell contents");
+
     function CellEditor($cell) {
         var originalText;
         $cell.dblclick(editCell);

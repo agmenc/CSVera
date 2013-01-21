@@ -7,6 +7,8 @@ function AddRow(whenAdded) {
             event.preventDefault();
         }
     }
+
+    explain("CTRL-d                        Duplicate currently-selected row");
 }
 
 function LogKey() {
@@ -28,10 +30,14 @@ function MoveRow() {
         else if (row2.css("display") === "none") swap(row1, row2.next());
         else row1.before(row2);
     }
+
+    explain("Up and down arrow keys        Move currently-selected row");
 }
 
 function CtrlCmd(whenPressed) {
     this.processKeypress = function($row, event) {
         if (event.metaKey && event.which === 65) whenPressed();
     }
+
+    explain("CTRL-a CTRL-c                 Copy table as CSV (mimics select all-copy)");
 }
