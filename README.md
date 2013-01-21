@@ -7,7 +7,7 @@ CSVera is a planning and estimating tool, disguised as an in-browser CSV editor.
 * It doesn't really care what columns you have, so long as there is a header row
 
 ## Download & Install
-* Download the [Complete Zip](https://github.com/agmenc/CSVera/raw/master/download-all.zip). To change versions, just grab the latest copy of [csvera.js](https://raw.github.com/agmenc/CSVera/master/download-files/csvera.js)
+* Download the [Complete Zip](https://github.com/agmenc/CSVera/raw/master/download/csvera-1.1.zip). To change versions, just grab the latest copy of [csvera.js](https://raw.github.com/agmenc/CSVera/master/download/files/csvera-1.1-min.js)
 * Modify the file CSVera.html so that it points to your own CSV file. This should have a header row.
 
 ## Usage
