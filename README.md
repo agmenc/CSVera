@@ -1,15 +1,19 @@
 CSVera
 ======
 
-CSVera is a browser-based CSV editor. It doesn't require a server to run. It is useful for editing CSV files which are stored under source control.
+CSVera is a planning and estimating tool, disguised as an in-browser CSV editor. Advantages:
+* No server is required
+* The underlying data is still a checked-in CSV
+* You can display it read-only from a CI server, e.g. TeamCity
+* It doesn't really care what columns you have, so long as there is a header row
 
-I use it to edit a prioritised feature-list for applications I am working on. This is checked-in to source control, and my collaborators can also edit it. If I really mess things up, I revert the change.
-
-You can display the current feature list to non-techies via a continuous integration server, such as TeamCity.
+Download
+========
+Download the complete zip or just grab the latest copy of csvera.js
 
 Usage
 =====
-* Modify the file csvera.html so that it points to your own CSV file. This should have a header row.
+* Modify the file CSVera.html so that it points to your own CSV file. This should have a header row.
 * Open csvera.html in your favourite browser.
 * Click rows to select them. Use the arrow keys to move them up and down.
 * Click column headings to activate the filters.

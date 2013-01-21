@@ -12,19 +12,10 @@
     <script src="TableFilterer.js" type="text/javascript"></script>
     <script src="KeyBindings.js" type="text/javascript"></script>
     <script src="InlineCellEditor.js" type="text/javascript"></script>
+    <script src="Constructor.js" type="text/javascript"></script>
 </head>
 <body>
 <div id="editorControlPanel"></div>
-<table id="editor"></table>
-<script>
-    $(document).ready(function () {
-        new TableLoader("editor", "../csvera.csv", editTable);
-    });
-
-    function editTable() {
-        new TableEditor("editor", new CsvExtractor("editor").extract);
-        new TableFilterer("editor");
-    }
-</script>
+<table id="editor" csv="../csvera.csv"></table>
 </body>
 </html>
