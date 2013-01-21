@@ -7,6 +7,9 @@ function Constructor(tableId, csvPath) {
     }
 }
 
+if (typeof jQuery === "undefined") throw "JQuery could not be found, and is required by CSVera"
+if (typeof _ === "undefined") throw "Underscore.js could not be found, and is required by CSVera"
+
 $(document).ready(function () {
     $("table[csv]").each(function() {
         new Constructor($(this).attr("id"), $(this).attr("csv"));

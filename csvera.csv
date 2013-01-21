@@ -10,8 +10,8 @@ CSVera ,19 Jan 2013 ,21 Jan 2013 ,2       ,DEPLOY   ,Create a nice minified pack
 CSVera ,20 Jan 2013 ,21 Jan 2013 ,1       ,DEPLOY   ,Make usage simpler by just annotating the target table with csv="path"
 CSVera ,21 Jan 2013 ,21 Jan 2013 ,1       ,DEPLOY   ,Add versioning to packaging system
 CSVera ,21 Jan 2013 ,21 Jan 2013 ,1       ,DEPLOY   ,Better names: csvera-0.11.zip csvera-0.11-min.js
-CSVera ,21 Jan 2013 ,            ,1       ,DEPLOY   ,Check for preconditions in Constructor.js
-CSVera ,            ,            ,1       ,EDITING  ,Print usage information to the console (click; double-click; all keyBindings should self-describe)
+CSVera ,21 Jan 2013 ,21 Jan 2013 ,1       ,DEPLOY   ,Check for preconditions in Constructor.js
+CSVera ,21 Jan 2013 ,            ,1       ,EDITING  ,Print usage information to the console (click; double-click; all keyBindings should self-describe)
 CSVera ,            ,            ,2       ,DEPLOY   ,Update docs to be a bit prettier and more terse
 CSVera ,            ,            ,1       ,EDITING  ,Make all changed rows and cells a different colour
 CSVera ,            ,            ,1       ,EDITING  ,Provide one-time drop-downs for cells in new row (with a free text option)
