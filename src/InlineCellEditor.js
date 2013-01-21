@@ -1,9 +1,11 @@
-function InlineCellEditor(tableId) {
-    var targetTableId = "#" + tableId;
+function InlineCellEditor() {
+    var self = this;
 
-    $(targetTableId).find("td").each(function () {
-        new CellEditor($(this));
-    });
+    self.prime = function($row) {
+        $row.children("td").each(function () {
+            new CellEditor($(this));
+        });
+    }
 
     function CellEditor($cell) {
         var originalText;

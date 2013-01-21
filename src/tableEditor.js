@@ -2,7 +2,8 @@ function TableEditor(tableId, csvExtractor) {
     var targetTableId = "#" + tableId;
     var focusableField = "#focusableField";
     var $selectedRow;
-    var keyBindings = [new AddRow(rowAdded), new MoveRow(), new CtrlCmd(dataChanged), new LogKey()];
+    var keyBindings = [new AddRow(rowAdded), new MoveRow(), new CtrlCmd(dataChanged)];
+    var cellEditor = new InlineCellEditor();
 
     $(targetTableId).after("<textarea id='focusableField' type='text' class='littleFloater' name='whatever' value='whatever'/>");
     $(targetTableId).find("tbody tr").each(prime);
@@ -19,6 +20,7 @@ function TableEditor(tableId, csvExtractor) {
 
     function prime(index, row) {
         var $row = $(row);
+        cellEditor.prime($row);
         $row.click(function () {
             clearSelection();
             $selectedRow = $row;
