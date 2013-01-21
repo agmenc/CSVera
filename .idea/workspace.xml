@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5562192f-9b59-44ff-a99d-23df144706ae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/download/files/CSVera.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/minor_version.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/download-all.zip" afterPath="$PROJECT_DIR$/download/csvera-1.1.zip" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/download-files/CSVera.html" afterPath="$PROJECT_DIR$/download/files/CSVera.template" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/download-files/csvera.css" afterPath="$PROJECT_DIR$/download/files/csvera.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/download-files/csvera.js" afterPath="$PROJECT_DIR$/download/files/csvera-1.1-min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/download-files/jquery-1.7.1.min.js" afterPath="$PROJECT_DIR$/download/files/jquery-1.7.1.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/download-files/underscore-min.js" afterPath="$PROJECT_DIR$/download/files/underscore-min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CSVera.html" afterPath="$PROJECT_DIR$/src/CSVera.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csvera.csv" afterPath="$PROJECT_DIR$/csvera.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.sh" afterPath="$PROJECT_DIR$/package.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="features.iws" />
@@ -28,7 +18,7 @@
     <file path="/filter.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358272186436" ignored="false" />
     <file path="/fragment.js2" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358185469069" ignored="false" />
     <file path="/tableFilterer.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358362005123" ignored="false" />
-    <file path="/Dummy.txt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358798611267" ignored="false" />
+    <file path="/Dummy.txt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358800314723" ignored="false" />
     <file path="/README.md" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358780916497" ignored="false" />
     <file path="/a.java" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358458603655" ignored="false" />
     <file path="/csvera.csv" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358798642601" ignored="false" />
@@ -123,82 +113,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="csvera.csv" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="csvera.csv" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/csvera.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="54" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
+            <state line="33" column="0" selection-start="3277" selection-end="3277" vertical-scroll-proportion="0.7133152">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="minor_version.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/minor_version.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InlineCellEditor.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InlineCellEditor.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="27" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Constructor.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Constructor.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="20" selection-start="319" selection-end="323" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatePicker.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DatePicker.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DatePicker.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="234" column="18" selection-start="4507" selection-end="4507" vertical-scroll-proportion="0.14957266">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.sh" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="155" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="21" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TableFilterer.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TableFilterer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="4" selection-start="38" selection-end="186" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="csvera.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/csvera.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="1" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
+            <state line="234" column="18" selection-start="4507" selection-end="4507" vertical-scroll-proportion="-4.375">
               <folding />
             </state>
           </provider>
@@ -242,12 +169,12 @@
         <option value="$PROJECT_DIR$/download-files/CSVera.html" />
         <option value="$PROJECT_DIR$/src/Constructor.js" />
         <option value="$PROJECT_DIR$/src/InlineCellEditor.js" />
-        <option value="$PROJECT_DIR$/csvera.csv" />
         <option value="$PROJECT_DIR$/src/CSVera.html" />
         <option value="$PROJECT_DIR$/download-files/CSVera.template" />
         <option value="$PROJECT_DIR$/minor_version.txt" />
         <option value="$PROJECT_DIR$/package.sh" />
         <option value="$PROJECT_DIR$/download/files/CSVera.template" />
+        <option value="$PROJECT_DIR$/csvera.csv" />
       </list>
     </option>
   </component>
@@ -591,7 +518,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update plan" />
+    <option name="LAST_COMMIT_MESSAGE" value="Versioning and better naming of downloadables." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -623,6 +550,7 @@
     <MESSAGE value="Bugfixes: make cells in new rows editable, and make CMD-d work the same as CTRL-d." />
     <MESSAGE value="Packaging and deployment: use an attribute to annotate tables that should contain the CSV. Switch minification to using SIMPLE-OPTIMIZATIONS" />
     <MESSAGE value="Update plan" />
+    <MESSAGE value="Versioning and better naming of downloadables." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -708,62 +636,6 @@
         <state line="6" column="0" selection-start="223" selection-end="223" vertical-scroll-proportion="0.12396694" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TableFilterer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="4" selection-start="38" selection-end="186" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csvera.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="1" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="21" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InlineCellEditor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="27" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Constructor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="20" selection-start="319" selection-end="323" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csvera.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="54" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/minor_version.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="155" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/download/files/CSVera.template">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="3" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
@@ -799,9 +671,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/csvera.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="1" selection-start="228" selection-end="228" vertical-scroll-proportion="0.33608815">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TableFilterer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="4" selection-start="38" selection-end="186" vertical-scroll-proportion="0.020661157">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="21" selection-start="797" selection-end="797" vertical-scroll-proportion="0.30991736">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="155" selection-start="408" selection-end="408" vertical-scroll-proportion="0.24032043">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DatePicker.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="234" column="18" selection-start="4507" selection-end="4507" vertical-scroll-proportion="0.14957266">
+        <state line="234" column="18" selection-start="4507" selection-end="4507" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Constructor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="20" selection-start="319" selection-end="323" vertical-scroll-proportion="0.22029373">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InlineCellEditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="27" selection-start="381" selection-end="381" vertical-scroll-proportion="0.30040053">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minor_version.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="2" selection-end="2" vertical-scroll-proportion="0.020026702">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvera.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="3277" selection-end="3277" vertical-scroll-proportion="0.7133152">
           <folding />
         </state>
       </provider>
