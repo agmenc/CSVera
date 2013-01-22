@@ -1,12 +1,14 @@
 #!/bin/sh
 
-version=$(cat minor_version.txt)
-#let version++
-#echo $version > minor_version.txt
-
 target="download/files"
+version=$(cat minor_version.txt)
+let version++
+echo $version > minor_version.txt
+
 minifiedName="csvera-1.${version}-min.js"
 
+git rm download/csvera-*.zip
+git rm ${target}/csvera-*-min.js
 cat ${target}/CSVera.template | sed "s/@CSVERA@/${minifiedName}/" > ${target}/CSVera.html
 
 java -jar closure-compiler/compiler.jar  --compilation_level SIMPLE_OPTIMIZATIONS --js src/KeyBindings.js --js src/TableFilterer.js --js src/jquery.inc-6.js --js src/CsvExtractor.js --js src/InlineCellEditor.js --js src/TableLoader.js --js src/TableEditor.js --js src/Constructor.js --js_output_file ${target}/${minifiedName}

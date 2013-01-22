@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5562192f-9b59-44ff-a99d-23df144706ae" name="Default" comment="Print instructions to the Javascript console">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csvera.csv" afterPath="$PROJECT_DIR$/csvera.csv" />
+    <list default="true" id="5562192f-9b59-44ff-a99d-23df144706ae" name="Default" comment="Update list">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/download/files/csvera-1.2-min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/download/csvera-1.1.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/download/files/csvera-1.1-min.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/download/csvera-1.1.zip" afterPath="$PROJECT_DIR$/download/csvera-1.2.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/download/files/CSVera.html" afterPath="$PROJECT_DIR$/download/files/CSVera.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/minor_version.txt" afterPath="$PROJECT_DIR$/minor_version.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.sh" afterPath="$PROJECT_DIR$/package.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="features.iws" />
@@ -18,7 +24,7 @@
     <file path="/filter.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358272186436" ignored="false" />
     <file path="/fragment.js2" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358185469069" ignored="false" />
     <file path="/tableFilterer.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358362005123" ignored="false" />
-    <file path="/Dummy.txt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358893654734" ignored="false" />
+    <file path="/Dummy.txt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358893999951" ignored="false" />
     <file path="/README.md" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358780916497" ignored="false" />
     <file path="/a.java" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358458603655" ignored="false" />
     <file path="/csvera.csv" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358803320875" ignored="false" />
@@ -113,10 +119,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="csvera.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="csvera.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/csvera.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="16" selection-start="168" selection-end="168" vertical-scroll-proportion="0.3195739">
+            <state line="24" column="0" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.sh" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="4" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="minor_version.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/minor_version.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="2" selection-end="2" vertical-scroll-proportion="0.020026702">
               <folding />
             </state>
           </provider>
@@ -183,8 +207,6 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/download-files/CSVera.html" />
         <option value="$PROJECT_DIR$/download-files/CSVera.template" />
-        <option value="$PROJECT_DIR$/minor_version.txt" />
-        <option value="$PROJECT_DIR$/package.sh" />
         <option value="$PROJECT_DIR$/download/files/CSVera.template" />
         <option value="$PROJECT_DIR$/src/CSVera.html" />
         <option value="$PROJECT_DIR$/src/InlineCellEditor.js" />
@@ -193,6 +215,8 @@
         <option value="$PROJECT_DIR$/src/TableEditor.js" />
         <option value="$PROJECT_DIR$/csvera.csv" />
         <option value="$PROJECT_DIR$/src/csvera.css" />
+        <option value="$PROJECT_DIR$/package.sh" />
+        <option value="$PROJECT_DIR$/minor_version.txt" />
       </list>
     </option>
   </component>
@@ -483,6 +507,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.67008984" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -492,7 +517,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PMIP" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952926" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -536,7 +560,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Print instructions to the Javascript console" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update list" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -571,6 +595,7 @@
     <MESSAGE value="Update plan" />
     <MESSAGE value="Check preconditions before trying to construct csvera." />
     <MESSAGE value="Print instructions to the Javascript console" />
+    <MESSAGE value="Update list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -663,11 +688,6 @@
         <state line="14" column="21" selection-start="797" selection-end="797" vertical-scroll-proportion="0.30991736" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="155" selection-start="408" selection-end="408" vertical-scroll-proportion="0.24032043" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DatePicker.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="234" column="18" selection-start="4507" selection-end="4507" vertical-scroll-proportion="0.0">
@@ -687,11 +707,6 @@
         <state line="6" column="23" selection-start="206" selection-end="206" vertical-scroll-proportion="-3.75">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/minor_version.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="2" selection-end="2" vertical-scroll-proportion="0.020026702" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/KeyBindings.js">
@@ -731,7 +746,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/csvera.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="16" selection-start="168" selection-end="168" vertical-scroll-proportion="0.3195739">
+        <state line="24" column="0" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="4" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minor_version.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="2" selection-end="2" vertical-scroll-proportion="0.020026702">
           <folding />
         </state>
       </provider>
