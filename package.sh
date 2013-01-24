@@ -1,18 +1,40 @@
 #!/bin/sh
 
+function updateVersion() {
+    minorVersion=$(cat minor_version.txt)
+    let minorVersion++
+    echo $minorVersion > minor_version.txt
+    version="1.${minorVersion}"
+    replace "CSVera.template.html" "${target}/CSVera.html"
+    replace "README.template.md" "README.md"
+}
+
+function replace() {
+    template=$1
+    toPublish=$2
+    cat "templates/$template" | sed "s/@VERSION@/${version}/" > "$toPublish"
+}
+
+function remove() {
+    directory=$1
+    filePattern=$2
+    for file in $(find $directory -name "$filePattern") ; do
+        git rm --ignore-unmatch $file
+        rm -f $file
+    done
+#    find download -name "csvera-*.zip" |
+}
+
+version=
 target="download/files"
-version=$(cat minor_version.txt)
-let version++
-echo $version > minor_version.txt
 
-minifiedName="csvera-1.${version}-min.js"
+remove download "csvera-*.zip"
+remove ${target} "csvera-*.min.js"
 
-git rm download/csvera-*.zip
-git rm ${target}/csvera-*-min.js
-cat ${target}/CSVera.template | sed "s/@CSVERA@/${minifiedName}/" > ${target}/CSVera.html
+updateVersion
 
-java -jar closure-compiler/compiler.jar  --compilation_level SIMPLE_OPTIMIZATIONS --js src/KeyBindings.js --js src/TableFilterer.js --js src/jquery.inc-6.js --js src/CsvExtractor.js --js src/InlineCellEditor.js --js src/TableLoader.js --js src/TableEditor.js --js src/Constructor.js --js_output_file ${target}/${minifiedName}
+java -jar closure-compiler/compiler.jar --compilation_level SIMPLE_OPTIMIZATIONS --js src/KeyBindings.js --js src/TableFilterer.js --js src/jquery.inc-6.js --js src/CsvExtractor.js --js src/InlineCellEditor.js --js src/TableLoader.js --js src/TableEditor.js --js src/Constructor.js --js_output_file ${target}/csvera-${version}.min.js
 
 cp src/csvera.css src/jquery-1.7.1.min.js src/underscore-min.js ${target}
 
-zip -rv -x *.zip @ download/csvera-1.${version}.zip ${target}/*
+zip -rv -x *.zip @ download/csvera-${version}.zip ${target}/*
