@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5562192f-9b59-44ff-a99d-23df144706ae" name="Default" comment="Make packaging script automagically increment the minor version number, and update to version 1.3">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/README.template.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/download/csvera-1.2.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/download/files/csvera-1.2-min.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/download/csvera-1.2.zip" afterPath="$PROJECT_DIR$/download/csvera-1.3.zip" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/download/files/CSVera.template" afterPath="$PROJECT_DIR$/templates/CSVera.template.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/download/files/csvera-1.2-min.js" afterPath="$PROJECT_DIR$/download/files/csvera-1.3.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/download/files/CSVera.html" afterPath="$PROJECT_DIR$/download/files/CSVera.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csvera.csv" afterPath="$PROJECT_DIR$/csvera.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/minor_version.txt" afterPath="$PROJECT_DIR$/minor_version.txt" />
+    <list default="true" id="5562192f-9b59-44ff-a99d-23df144706ae" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.sh" afterPath="$PROJECT_DIR$/package.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -27,7 +18,7 @@
     <file path="/filter.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358272186436" ignored="false" />
     <file path="/fragment.js2" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358185469069" ignored="false" />
     <file path="/tableFilterer.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358362005123" ignored="false" />
-    <file path="/Dummy.txt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1359018477226" ignored="false" />
+    <file path="/Dummy.txt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1359018482708" ignored="false" />
     <file path="/README.md" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358780916497" ignored="false" />
     <file path="/a.java" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358458603655" ignored="false" />
     <file path="/csvera.csv" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358929684986" ignored="false" />
@@ -177,19 +168,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.sh" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="package.sh" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="682" selection-end="682" vertical-scroll-proportion="0.0">
+            <state line="36" column="38" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.74380165">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="minor_version.txt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="minor_version.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/minor_version.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="2" selection-end="2" vertical-scroll-proportion="0.020661157">
+            <state line="1" column="0" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -264,8 +255,8 @@
         <option value="$PROJECT_DIR$/src/csvera.css" />
         <option value="$PROJECT_DIR$/csvera.csv" />
         <option value="$PROJECT_DIR$/templates/CSVera.template.html" />
-        <option value="$PROJECT_DIR$/package.sh" />
         <option value="$PROJECT_DIR$/minor_version.txt" />
+        <option value="$PROJECT_DIR$/package.sh" />
       </list>
     </option>
   </component>
@@ -611,7 +602,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update to version 1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make packaging script automagically increment the minor version number, and update to version 1.3" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -648,6 +639,7 @@
     <MESSAGE value="Print instructions to the Javascript console" />
     <MESSAGE value="Update list" />
     <MESSAGE value="Update to version 1.2" />
+    <MESSAGE value="Make packaging script automagically increment the minor version number, and update to version 1.3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -809,16 +801,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.sh">
+    <entry file="file://$PROJECT_DIR$/minor_version.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="682" selection-end="682" vertical-scroll-proportion="0.0">
+        <state line="1" column="0" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/minor_version.txt">
+    <entry file="file://$PROJECT_DIR$/package.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="2" selection-end="2" vertical-scroll-proportion="0.020661157">
+        <state line="36" column="38" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.74380165">
           <folding />
         </state>
       </provider>

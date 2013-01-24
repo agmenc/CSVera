@@ -22,7 +22,6 @@ function remove() {
         git rm --ignore-unmatch $file
         rm -f $file
     done
-#    find download -name "csvera-*.zip" |
 }
 
 version=
@@ -38,3 +37,6 @@ java -jar closure-compiler/compiler.jar --compilation_level SIMPLE_OPTIMIZATIONS
 cp src/csvera.css src/jquery-1.7.1.min.js src/underscore-min.js ${target}
 
 zip -rv -x *.zip @ download/csvera-${version}.zip ${target}/*
+
+git add ${target}/csvera-${version}.min.js
+git add download/csvera-${version}.zip
