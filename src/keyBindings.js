@@ -1,20 +1,17 @@
 function AddRow(whenAdded) {
     this.processKeypress = function($row, event) {
-        if (event.metaKey && event.which === 68) {
+        if (event.metaKey && event.which == 68) {
             var $newRow = $row.clone();
             $row.after($newRow);
             whenAdded($newRow);
             event.preventDefault();
+            return true;
         }
+
+        return false;
     }
 
     explain("CTRL-d                        Duplicate currently-selected row");
-}
-
-function LogKey() {
-    this.processKeypress = function($row, event) {
-        console.log(event.which);
-    }
 }
 
 function MoveRow() {
@@ -23,6 +20,8 @@ function MoveRow() {
             case 38: swap($row.prev(), $row); break;
             case 40: swap($row, $row.next()); break;
         }
+
+        return event.which == 38 || event.which == 40;
     }
 
     function swap(row1, row2) {
@@ -36,8 +35,11 @@ function MoveRow() {
 
 function CtrlCmd(whenPressed) {
     this.processKeypress = function($row, event) {
-        if (event.metaKey && event.which === 65) whenPressed();
+        if (event.metaKey && event.which == 65) whenPressed();
+        return false;
     }
 
-    explain("CTRL-a CTRL-c                 Copy table as CSV (mimics select all-copy)");
+    explain("CTRL-a                        Enter RAW MODE, displaying raw CSV");
+    explain("CTRL-C                        RAW MODE: copy, of course");
+    explain("ESC                           RAW MODE: exit raw mode");
 }

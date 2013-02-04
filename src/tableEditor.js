@@ -2,14 +2,14 @@ function TableEditor(tableId, csvExtractor) {
     explain("Click a row                   Select the row");
 
     var targetTableId = "#" + tableId;
-    var focusableField = "#focusableField";
+    var focusableFieldId = "#focusableField";
     var $selectedRow;
-    var keyBindings = [new AddRow(rowAdded), new MoveRow(), new CtrlCmd(dataChanged)];
+    var keyBindings = [new AddRow(rowAdded), new MoveRow(), new CtrlCmd(displayRaw)];
     var cellEditor = new InlineCellEditor();
 
     $(targetTableId).after("<textarea id='focusableField' type='text' class='littleFloater' name='whatever' value='whatever'/>");
     $(targetTableId).find("tbody tr").each(prime);
-    $(focusableField).keydown(typing).blur(clearSelection);
+    $(focusableFieldId).keydown(typing).blur(clearSelection);
     $(targetTableId).find("tbody tr").first().click();
     explain("Mac users                     Use CMD in place of CTRL");
 
@@ -17,8 +17,9 @@ function TableEditor(tableId, csvExtractor) {
         prime(0, $row.get(0));
     }
 
-    function dataChanged() {
-        $(focusableField).text(csvExtractor());
+    function displayRaw() {
+        $(focusableFieldId).text(csvExtractor());
+        new RawEditor($(focusableFieldId));
     }
 
     function prime(index, row) {
@@ -37,20 +38,16 @@ function TableEditor(tableId, csvExtractor) {
     }
 
     function typing(keyEvent) {
-
-        // Need to only use bindings that recognise the keypress, so that we only clear/move focus when they are executed
-        clearSelection();
-
+        var refocus = false;
         keyBindings.forEach(function (binding) {
-            binding.processKeypress($selectedRow, keyEvent);
+            if (binding.processKeypress($selectedRow, keyEvent)) refocus = true;
         });
 
-        $selectedRow.addClass("selected");
-        moveFocusHack();
+        if (refocus) moveFocusHack();
     }
 
     function moveFocusHack() {
-        $(focusableField).offset({ top: $selectedRow.position().top, left: -10 });
-        $(focusableField).focus();
+        $(focusableFieldId).offset({ top: $selectedRow.position().top, left: -10 });
+        $(focusableFieldId).focus();
     }
 }
