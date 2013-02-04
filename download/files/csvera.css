@@ -15,7 +15,7 @@ tr.selected {
 }
 
 .littleFloater {
-    width: 0; height: 0; position: absolute; left: -10px;
+    width: 0; height: 0; position: absolute; right: -10px;
 }
 
 /* TableFilterer */
@@ -31,4 +31,13 @@ tr.selected {
 .inCellAdams {
     box-sizing: border-box;
     position: absolute;
+}
+
+/* RawEditor */
+.max {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
 }
