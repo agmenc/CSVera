@@ -1,6 +1,6 @@
 function AddRow(whenAdded) {
     this.processKeypress = function($row, event) {
-        if (event.metaKey && event.which == 68) {
+        if ((event.metaKey || event.ctrlKey) && event.which == 68) {
             var $newRow = $row.clone();
             $row.after($newRow);
             whenAdded($newRow);
@@ -35,7 +35,7 @@ function MoveRow() {
 
 function CtrlCmd(whenPressed) {
     this.processKeypress = function($row, event) {
-        if (event.metaKey && event.which == 65) whenPressed();
+        if ((event.metaKey || event.ctrlKey) && event.which == 65) whenPressed();
         return false;
     }
 
