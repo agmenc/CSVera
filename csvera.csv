@@ -14,9 +14,11 @@ CSVera ,21 Jan 2013 ,21 Jan 2013 ,1       ,DEPLOY   ,Check for preconditions in 
 CSVera ,21 Jan 2013 ,22 Jan 2013 ,1       ,EDITING  ,Print usage information to the console (click; double-click; all keyBindings should self-describe)
 CSVera ,21 Jan 2013 ,24 Jan 2013 ,1       ,DEPLOY   ,Make docs display the correct version numbers automatically
 CSVera ,21 Jan 2013 ,24 Jan 2013 ,2       ,DEPLOY   ,Update docs to be a bit prettier and more terse
-CSVera ,21 Jan 2013 ,            ,1       ,BUGS     ,Fix bug that scrolls to put focusableField at the top of the window if all text is selected
-CSVera ,            ,            ,1       ,BUGS     ,Make CTRL-a CTRL-c work again in Windoze
-CSVera ,29 Jan 2013 ,            ,1       ,EDITING  ,Replace page with raw CSV selected in read-only textarea, hiding again on CTRL-C or ESC
+CSVera ,21 Jan 2013 ,6 Feb 2013  ,1       ,BUGS     ,Fix bug that scrolls to put focusableField at the top of the window if all text is selected
+CSVera ,21 Jan 2013 ,            ,1       ,BUGS     ,Fix bug where when typing CTRL-a in a page with multiple tables only edits the last one
+CSVera ,21 Jan 2013 ,            ,1       ,BUGS     ,Fix bug where CTRL-c does not close the RAW mode in Windows
+CSVera ,5 Feb 2013  ,5 Feb 2013  ,1       ,BUGS     ,Make CTRL-a CTRL-c work again in Windoze
+CSVera ,29 Jan 2013 ,5 Feb 2013  ,1       ,EDITING  ,Replace page with raw CSV selected in read-only textarea, hiding again on CTRL-C or ESC
 CSVera ,            ,            ,1       ,EDITING  ,Make all changed rows and cells a different colour
 CSVera ,            ,            ,1       ,EDITING  ,Provide one-time drop-downs for cells in new row (with a free text option)
 CSVera ,            ,            ,1       ,EDITING  ,Detect dates and show a date picker. Maybe re-invent date pickers to be usable?

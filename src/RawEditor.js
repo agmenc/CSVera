@@ -11,5 +11,6 @@ function RawEditor($textarea) {
     function close() {
         $textarea.removeClass("max");
         $textarea.offset(originalOffset);
+        setTimeout(function() { $textarea.text(""); }, 500);
     }
 }
