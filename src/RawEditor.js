@@ -5,7 +5,8 @@ function RawEditor($textarea) {
     $textarea.keydown(typing)
 
     function typing(event) {
-        if ((event.metaKey && event.which == 67) || event.which == 27) close();
+        var keyIs = keyFor(event);
+        if (keyIs.CTRL("c") || keyIs.ESC()) close();
     }
 
     function close() {
