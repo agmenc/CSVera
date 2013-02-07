@@ -1,25 +1,9 @@
 Project,Started     ,Finished    ,Estimate,Epic     ,Description
-CSVera ,15 Jan 2013 ,16 Jan 2013 ,1       ,EDITING  ,Make rows move above/below visible rows on table (ignoring filtered rows)
-CSVera ,16 Jan 2013 ,16 Jan 2013 ,1       ,EDITING  ,When clicking a column heading, the select box should drop down immediately
-CSVera ,16 Jan 2013 ,17 Jan 2013 ,1       ,EDITING  ,Add row
-CSVera ,17 Jan 2013 ,17 Jan 2013 ,2       ,EDITING  ,In-cell editing
-CSVera ,17 Jan 2013 ,18 Jan 2013 ,2       ,BUGS     ,Make copy and paste of CSV work again
-CSVera ,18 Jan 2013 ,18 Jan 2013 ,2       ,EDITING  ,Make input fields exactly the same size as the table cell
-CSVera ,18 Jan 2013 ,19 Jan 2013 ,1       ,BUGS     ,In-cell editing should fire a dataChanged update
-CSVera ,19 Jan 2013 ,21 Jan 2013 ,2       ,DEPLOY   ,Create a nice minified package for installers
-CSVera ,20 Jan 2013 ,21 Jan 2013 ,1       ,DEPLOY   ,Make usage simpler by just annotating the target table with csv="path"
-CSVera ,21 Jan 2013 ,21 Jan 2013 ,1       ,DEPLOY   ,Add versioning to packaging system
-CSVera ,21 Jan 2013 ,21 Jan 2013 ,1       ,DEPLOY   ,Better names: csvera-0.11.zip csvera-0.11-min.js
-CSVera ,21 Jan 2013 ,21 Jan 2013 ,1       ,DEPLOY   ,Check for preconditions in Constructor.js
-CSVera ,21 Jan 2013 ,22 Jan 2013 ,1       ,EDITING  ,Print usage information to the console (click; double-click; all keyBindings should self-describe)
-CSVera ,21 Jan 2013 ,24 Jan 2013 ,1       ,DEPLOY   ,Make docs display the correct version numbers automatically
-CSVera ,21 Jan 2013 ,24 Jan 2013 ,2       ,DEPLOY   ,Update docs to be a bit prettier and more terse
-CSVera ,21 Jan 2013 ,6 Feb 2013  ,1       ,BUGS     ,Fix bug that scrolls to put focusableField at the top of the window if all text is selected
+CSVera ,            ,            ,1       ,EDITING  ,When there are multiple tables allow the user to choose a table to show
 CSVera ,            ,            ,1       ,EDITING  ,Add a ?columnName=value filter to the URL so that we can pass a link to a particular iteration or project or whatever
-CSVera ,21 Jan 2013 ,            ,1       ,BUGS     ,Fix bug where when typing CTRL-a in a page with multiple tables only edits the last one
-CSVera ,21 Jan 2013 ,6 Feb 2013  ,1       ,BUGS     ,Fix bug where CTRL-c does not close the RAW mode in Windows
-CSVera ,5 Feb 2013  ,5 Feb 2013  ,1       ,BUGS     ,Make CTRL-a CTRL-c work again in Windoze
-CSVera ,29 Jan 2013 ,5 Feb 2013  ,1       ,EDITING  ,Replace page with raw CSV selected in read-only textarea, hiding again on CTRL-C or ESC
+CSVera ,21 Jan 2013 ,7 Feb 2013  ,1       ,BUGS     ,Fix bug where when typing CTRL-a in a page with multiple tables only edits the last one
+CSVera ,21 Jan 2013 ,            ,1       ,BUGS     ,Fix bug where where RAW display does not match scroll position
+CSVera ,            ,            ,1       ,BUGS     ,Only show the insructions once
 CSVera ,            ,            ,1       ,EDITING  ,Make all changed rows and cells a different colour
 CSVera ,            ,            ,1       ,EDITING  ,Provide one-time drop-downs for cells in new row (with a free text option)
 CSVera ,            ,            ,1       ,EDITING  ,Detect dates and show a date picker. Maybe re-invent date pickers to be usable?

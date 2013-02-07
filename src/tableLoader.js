@@ -9,7 +9,7 @@ function TableLoader(tableId, dataSourcePath, callback) {
     }
 
     function buildRow(rowData) {
-        return "<tr>" + buildCells(rowData.split(",", 7)) + " </tr>";
+        return "<tr>" + buildCells(rowData.split(",", -1)) + " </tr>";
     }
 
     function buildCells(allCells) {
