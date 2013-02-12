@@ -18,3 +18,5 @@ CSVera ,21 Jan 2013 ,6 Feb 2013  ,1       ,BUGS     ,Fix bug that scrolls to put
 CSVera ,21 Jan 2013 ,6 Feb 2013  ,1       ,BUGS     ,Fix bug where CTRL-c does not close the RAW mode in Windows
 CSVera ,5 Feb 2013  ,5 Feb 2013  ,1       ,BUGS     ,Make CTRL-a CTRL-c work again in Windoze
 CSVera ,29 Jan 2013 ,5 Feb 2013  ,1       ,EDITING  ,Replace page with raw CSV selected in read-only textarea, hiding again on CTRL-C or ESC
+CSVera ,21 Jan 2013 ,7 Feb 2013  ,1       ,BUGS     ,Fix bug where when typing CTRL-a in a page with multiple tables only edits the last one
+CSVera ,07 Feb 2013 ,12 Feb 2013 ,1       ,EDITING  ,When there are multiple tables allow the user to choose which table to show

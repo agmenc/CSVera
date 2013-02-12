@@ -18,4 +18,5 @@ $(document).ready(function () {
     $("table[csv]").each(function() {
         new Constructor($(this).attr("id"), $(this).attr("csv"));
     })
+    new ControlPanel($("table[csv]"));
 });

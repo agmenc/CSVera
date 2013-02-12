@@ -2,12 +2,12 @@ function TableEditor(tableId, csvExtractor) {
     explain("Click a row                   Select the row");
 
     var targetTableId = "#" + tableId;
-    var focusableFieldId = "#focusableField";
+    var focusableFieldId = "#focusableField_" + tableId;
     var $selectedRow;
     var keyBindings = [new AddRow(rowAdded), new MoveRow(), new CtrlCmd(displayRaw)];
     var cellEditor = new InlineCellEditor();
 
-    $(targetTableId).after("<textarea id='focusableField' type='text' class='littleFloater' name='whatever' value='whatever'/>");
+    $(targetTableId).after("<textarea id='focusableField_" + tableId + "' type='text' class='littleFloater' name='whatever' value='whatever'/>");
     $(targetTableId).find("tbody tr").each(prime);
     $(focusableFieldId).keydown(typing).blur(clearSelection);
     $(targetTableId).find("tbody tr").first().click();
