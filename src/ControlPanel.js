@@ -1,6 +1,16 @@
 function ControlPanel($allCsvTables) {
 
-    if ($allCsvTables.size() > 1) createButtons();
+    if ($allCsvTables.size() > 1) {
+        createButtons();
+        showTable();
+    }
+
+    function showTable() {
+        if (param("table")) {
+            var $table = $("#" + param("table"));
+            $("#" + buttonId($table)).click();
+        }
+    }
 
     function createButtons() {
         $("body").append("<div id='csveraControlPanel' style='display: none;'></div>");
@@ -15,12 +25,15 @@ function ControlPanel($allCsvTables) {
     }
 
     function button($table, $controlPanel) {
-        var buttonId = "button_" + id($table);
-        $controlPanel.append("<button id='" + buttonId + "'>" + id($table) + "</button>");
-        $("#" + buttonId).click(function () {
+        $controlPanel.append("<button id='" + buttonId($table) + "'>" + id($table) + "</button>");
+        $("#" + buttonId($table)).click(function () {
             $allCsvTables.hide();
             $table.show();
         });
+    }
+
+    function buttonId($table) {
+        return "button_" + id($table);
     }
 
     function id($elem) {
