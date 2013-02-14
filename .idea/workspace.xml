@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5562192f-9b59-44ff-a99d-23df144706ae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/download/files/csvera-1.6.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/download/files/csvera-1.5.min.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/download/csvera-1.5.zip" afterPath="$PROJECT_DIR$/download/csvera-1.6.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/download/files/CSVera.html" afterPath="$PROJECT_DIR$/download/files/CSVera.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/minor_version.txt" afterPath="$PROJECT_DIR$/minor_version.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.sh" afterPath="$PROJECT_DIR$/package.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csvera.csv" afterPath="$PROJECT_DIR$/csvera.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="features.iws" />
@@ -23,7 +18,7 @@
     <file path="/filter.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358272186436" ignored="false" />
     <file path="/fragment.js2" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1360776776500" ignored="false" />
     <file path="/tableFilterer.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358362005123" ignored="false" />
-    <file path="/Dummy.txt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1360857978387" ignored="false" />
+    <file path="/Dummy.txt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1360858274214" ignored="false" />
     <file path="/README.md" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358780916497" ignored="false" />
     <file path="/a.java" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358458603655" ignored="false" />
     <file path="/csvera.csv" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1360261506136" ignored="false" />
@@ -38,7 +33,7 @@
     <file path="/minify.sh" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358615835722" ignored="false" />
     <file path="/KeyBindings.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1360228283914" ignored="false" />
     <file path="/TableEditor.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1360261160578" ignored="false" />
-    <file path="/package.sh" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1360858120548" ignored="false" />
+    <file path="/package.sh" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1360858229570" ignored="false" />
     <file path="/Constructor.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1360690825863" ignored="false" />
     <file path="/CSVera.template" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358799269636" ignored="false" />
     <file path="/CSVera.template.html" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358930030396" ignored="false" />
@@ -148,19 +143,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="csvera.csv" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="csvera.csv" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/csvera.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="82" selection-start="2806" selection-end="2806" vertical-scroll-proportion="0.0">
+            <state line="28" column="82" selection-start="2992" selection-end="2992" vertical-scroll-proportion="0.74899864">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.sh" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="package.sh" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="46" selection-start="1479" selection-end="1525" vertical-scroll-proportion="0.66088116">
+            <state line="30" column="0" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -209,8 +204,8 @@
         <option value="$PROJECT_DIR$/src/CSVera.html" />
         <option value="$PROJECT_DIR$/src/QueryParam.js" />
         <option value="$PROJECT_DIR$/src/TableFilterer.js" />
-        <option value="$PROJECT_DIR$/csvera.csv" />
         <option value="$PROJECT_DIR$/package.sh" />
+        <option value="$PROJECT_DIR$/csvera.csv" />
       </list>
     </option>
   </component>
@@ -572,7 +567,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Filter the table based on URL query params" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update packaging script" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -585,7 +580,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Make in-cell editors the same size as the cells" />
     <MESSAGE value="Make the CTRL/CMD-a perform the CSV extraction. Automatically select the first row." />
     <MESSAGE value="Create packaging script and download folder" />
     <MESSAGE value="Make deployed CSVera work" />
@@ -610,6 +604,7 @@
     <MESSAGE value="Add URL query param support for selecting tables" />
     <MESSAGE value="Update list" />
     <MESSAGE value="Filter the table based on URL query params" />
+    <MESSAGE value="Update packaging script" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -761,13 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csvera.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="82" selection-start="2806" selection-end="2806" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ControlPanel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="8" selection-start="164" selection-end="292" vertical-scroll-proportion="0.0">
@@ -786,7 +774,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="46" selection-start="1479" selection-end="1525" vertical-scroll-proportion="0.66088116">
+        <state line="30" column="0" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvera.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="82" selection-start="2992" selection-end="2992" vertical-scroll-proportion="0.74899864">
           <folding />
         </state>
       </provider>
