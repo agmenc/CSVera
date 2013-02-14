@@ -1,7 +1,7 @@
 #!/bin/sh
 
 function warn() {
-    echo "WARNING: Have you committed? This script will: UPDATE VERSION - BUILD DIST - PUSH TO GIT"
+    echo "WARNING: Is your code clean? This script will: UPDATE VERSION - BUILD DIST - COMMIT CHANGE - PUSH TO GIT"
     read -p "ENTER to continue" whatever
 }
 
@@ -52,3 +52,5 @@ makeZip
 
 git add ${target}/csvera-${version}.min.js
 git add download/csvera-${version}.zip
+
+git commit -m "Packaging version ${version}" .
