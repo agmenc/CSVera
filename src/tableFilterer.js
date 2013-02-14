@@ -6,9 +6,14 @@ function TableFilterer(tableId) {
     });
 
     function ColumnFilterer($columnHeading, columnIndex) {
+
         var originalText = $columnHeading.html();
 
         prime();
+
+        if (param(originalText.trim())) {
+            filter(param(originalText.trim()));
+        }
 
         function prime() {
             $columnHeading.on("click.ColumnFilterer", showOptions);
@@ -25,12 +30,11 @@ function TableFilterer(tableId) {
         }
 
         function chooseOption() {
-            filter($(this).val().trim());
             $(targetTableId).find("thead .filtered").each(function() {
                 $(this).removeClass("filtered");
             });
+            filter($(this).val().trim());
             restoreHeading();
-            $columnHeading.addClass("filtered");
         }
 
         function restoreHeading() {
@@ -44,6 +48,7 @@ function TableFilterer(tableId) {
                 if (nthChild.text().trim() === criterion) $(this).show();
                 else $(this).hide();
             });
+            $columnHeading.addClass("filtered");
         }
 
         function options() {

@@ -1,5 +1,10 @@
 #!/bin/sh
 
+function warn() {
+    echo "WARNING: Have you committed? This script will: UPDATE VERSION - BUILD DIST - PUSH TO GIT"
+    read -p "ENTER to continue" whatever
+}
+
 function updateVersion() {
     minorVersion=$(cat minor_version.txt)
     let minorVersion++
@@ -40,6 +45,7 @@ target="download/files"
 remove download "csvera-*.zip"
 remove ${target} "csvera-*.min.js"
 
+warn
 updateVersion
 minifyJs
 makeZip

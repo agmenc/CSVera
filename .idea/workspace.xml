@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5562192f-9b59-44ff-a99d-23df144706ae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csvera.csv" afterPath="$PROJECT_DIR$/csvera.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tableFilterer.js" afterPath="$PROJECT_DIR$/src/TableFilterer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.sh" afterPath="$PROJECT_DIR$/package.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="features.iws" />
@@ -18,7 +19,7 @@
     <file path="/filter.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358272186436" ignored="false" />
     <file path="/fragment.js2" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1360776776500" ignored="false" />
     <file path="/tableFilterer.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358362005123" ignored="false" />
-    <file path="/Dummy.txt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1360778272625" ignored="false" />
+    <file path="/Dummy.txt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1360833069723" ignored="false" />
     <file path="/README.md" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358780916497" ignored="false" />
     <file path="/a.java" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358458603655" ignored="false" />
     <file path="/csvera.csv" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1360261506136" ignored="false" />
@@ -33,7 +34,7 @@
     <file path="/minify.sh" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358615835722" ignored="false" />
     <file path="/KeyBindings.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1360228283914" ignored="false" />
     <file path="/TableEditor.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1360261160578" ignored="false" />
-    <file path="/package.sh" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1360002840393" ignored="false" />
+    <file path="/package.sh" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1360833275853" ignored="false" />
     <file path="/Constructor.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1360690825863" ignored="false" />
     <file path="/CSVera.template" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358799269636" ignored="false" />
     <file path="/CSVera.template.html" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358930030396" ignored="false" />
@@ -143,10 +144,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="csvera.csv" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="csvera.csv" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/csvera.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="82" selection-start="2806" selection-end="2806" vertical-scroll-proportion="0.7036048">
+            <state line="26" column="82" selection-start="2806" selection-end="2806" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.sh" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="36" selection-start="435" selection-end="435" vertical-scroll-proportion="0.26933703">
               <folding />
             </state>
           </provider>
@@ -183,7 +193,6 @@
         <option value="$PROJECT_DIR$/src/SelectText.js" />
         <option value="$PROJECT_DIR$/src/csvera.css" />
         <option value="$PROJECT_DIR$/minor_version.txt" />
-        <option value="$PROJECT_DIR$/package.sh" />
         <option value="$PROJECT_DIR$/src/RawEditor.js" />
         <option value="$PROJECT_DIR$/src/KeyBindings.js" />
         <option value="$PROJECT_DIR$/src/TableLoader.js" />
@@ -197,6 +206,7 @@
         <option value="$PROJECT_DIR$/src/QueryParam.js" />
         <option value="$PROJECT_DIR$/src/TableFilterer.js" />
         <option value="$PROJECT_DIR$/csvera.csv" />
+        <option value="$PROJECT_DIR$/package.sh" />
       </list>
     </option>
   </component>
@@ -684,13 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="36" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/KeyBindings.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="13" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
@@ -772,7 +775,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/csvera.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="82" selection-start="2806" selection-end="2806" vertical-scroll-proportion="0.7036048">
+        <state line="26" column="82" selection-start="2806" selection-end="2806" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="36" selection-start="435" selection-end="435" vertical-scroll-proportion="0.26933703">
           <folding />
         </state>
       </provider>
