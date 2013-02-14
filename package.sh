@@ -39,6 +39,13 @@ function makeZip() {
     zip -rv -x *.zip @ download/csvera-${version}.zip ${target}/*
 }
 
+function doTheGits() {
+    git add ${target}/csvera-${version}.min.js
+    git add download/csvera-${version}.zip
+    git commit -m "Packaging version ${version}" .
+    git push origin master
+}
+
 version=
 target="download/files"
 
@@ -49,8 +56,4 @@ warn
 updateVersion
 minifyJs
 makeZip
-
-git add ${target}/csvera-${version}.min.js
-git add download/csvera-${version}.zip
-
-git commit -m "Packaging version ${version}" .
+doTheGits
