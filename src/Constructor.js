@@ -1,9 +1,9 @@
-function Constructor(tableId, csvPath) {
+function Constructor(tableId, csvPath, eventBus) {
     new TableLoader(tableId, csvPath, editTable);
 
     function editTable() {
         new TableEditor(tableId, new CsvExtractor(tableId).extract);
-        new TableFilterer(tableId);
+        new TableFilterer(tableId, eventBus);
     }
 }
 
@@ -15,8 +15,9 @@ if (typeof jQuery === "undefined") throw "JQuery could not be found, and is requ
 if (typeof _ === "undefined") throw "Underscore.js could not be found, and is required by CSVera"
 
 $(document).ready(function () {
+    var eventBus = new EventBus();
     $("table[csv]").each(function() {
-        new Constructor($(this).attr("id"), $(this).attr("csv"));
-    })
-    new ControlPanel($("table[csv]"));
+        new Constructor($(this).attr("id"), $(this).attr("csv"), eventBus);
+    });
+    new ControlPanel($("table[csv]"), eventBus);
 });

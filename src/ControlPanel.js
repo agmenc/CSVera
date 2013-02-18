@@ -1,14 +1,21 @@
-function ControlPanel($allCsvTables) {
+function ControlPanel($allCsvTables, eventBus) {
 
     if ($allCsvTables.size() > 1) {
+        eventBus.subscribe(this, "TableFilteredEvent");
         createButtons();
         showTable();
+    }
+
+    this.respond = function(event) {
+        console.dir(event);
     }
 
     function showTable() {
         if (param("table")) {
             var $table = $("#" + param("table"));
             $("#" + buttonId($table)).click();
+        } else {
+            $("#csveraControlPanel").find("button").first().click();
         }
     }
 
@@ -30,6 +37,11 @@ function ControlPanel($allCsvTables) {
             $allCsvTables.hide();
             $table.show();
         });
+    }
+
+    function xxx() {
+        var $controlPanel = $("#csveraControlPanel");
+        $controlPanel.append("<span id='filterDisplay" + tableId + "' class='filterDisplay'><b>Filter:</b> " + tableId + " => " + columnName + " = " + filterValue + "</span>");
     }
 
     function buttonId($table) {
