@@ -1,4 +1,11 @@
-function TableFilterer(tableId) {
+function TableFilteredEvent(tableId, column, criterion) {
+    this.type = "TableFilteredEvent"
+    this.tableId = tableId;
+    this.column = column;
+    this.criterion = criterion;
+}
+
+function TableFilterer(tableId, eventBus) {
     var targetTableId = "#" + tableId;
 
     $(targetTableId).find("thead td").each(function(index) {
@@ -49,6 +56,7 @@ function TableFilterer(tableId) {
                 else $(this).hide();
             });
             $columnHeading.addClass("filtered");
+            eventBus.fire(new TableFilteredEvent(tableId, originalText.trim(), criterion));
         }
 
         function options() {

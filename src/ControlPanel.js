@@ -1,5 +1,4 @@
 function ControlPanel($allCsvTables, eventBus) {
-
     if ($allCsvTables.size() > 1) {
         eventBus.subscribe(this, "TableFilteredEvent");
         createButtons();
@@ -7,7 +6,9 @@ function ControlPanel($allCsvTables, eventBus) {
     }
 
     this.respond = function(event) {
-        console.dir(event);
+        if (event.type === "TableFilteredEvent") {
+            $("#csveraControlPanel").append("<span id='filterDisplay" + event.tableId + "' class='filterDisplay'><b>Filter:</b> " + event.tableId + " => " + event.column + " = " + event.criterion + "</span>");
+        }
     }
 
     function showTable() {
@@ -36,12 +37,9 @@ function ControlPanel($allCsvTables, eventBus) {
         $("#" + buttonId($table)).click(function () {
             $allCsvTables.hide();
             $table.show();
+            $controlPanel.find("button").css("font-weight", "normal");
+            $(this).css("font-weight", "bold");
         });
-    }
-
-    function xxx() {
-        var $controlPanel = $("#csveraControlPanel");
-        $controlPanel.append("<span id='filterDisplay" + tableId + "' class='filterDisplay'><b>Filter:</b> " + tableId + " => " + columnName + " = " + filterValue + "</span>");
     }
 
     function buttonId($table) {
