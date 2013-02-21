@@ -1,6 +1,4 @@
 function TableEditor(tableId, csvExtractor) {
-    explain("Click a row                   Select the row");
-
     var targetTableId = "#" + tableId;
     var focusableFieldId = "#focusableField_" + tableId;
     var $selectedRow;
@@ -11,7 +9,6 @@ function TableEditor(tableId, csvExtractor) {
     $(targetTableId).find("tbody tr").each(prime);
     $(focusableFieldId).keydown(typing).blur(clearSelection);
     $(targetTableId).find("tbody tr").first().click();
-    explain("Mac users                     Use CMD in place of CTRL");
 
     function rowAdded($row) {
         prime(0, $row.get(0));

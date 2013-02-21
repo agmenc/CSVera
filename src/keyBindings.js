@@ -39,8 +39,6 @@ function AddRow(whenAdded) {
 
         return false;
     }
-
-    explain("CTRL-d                        Duplicate currently-selected row");
 }
 
 function MoveRow() {
@@ -56,8 +54,6 @@ function MoveRow() {
         else row1.before(row2);
         return true;
     }
-
-    explain("Up and down arrow keys        Move currently-selected row");
 }
 
 function CtrlCmd(whenPressed) {
@@ -65,8 +61,4 @@ function CtrlCmd(whenPressed) {
         if (keyFor(event).CTRL("a")) whenPressed();
         return false;
     }
-
-    explain("CTRL-a                        Enter RAW MODE, displaying raw CSV");
-    explain("CTRL-C                        RAW MODE: copy, of course");
-    explain("ESC                           RAW MODE: exit raw mode");
 }
