@@ -1,7 +1,7 @@
 function RawEditor($textarea) {
     $textarea.addClass("max");
     var originalOffset = $textarea.offset();
-    $textarea.offset({ top: 0, left: 0 });
+    $textarea.offset({ top: $("body").scrollTop(), left: 0 });
     $textarea.keydown(typing)
 
     function typing(event) {

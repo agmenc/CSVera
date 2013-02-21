@@ -1,14 +1,7 @@
-function ControlPanel($allCsvTables, eventBus) {
+function ControlPanel($allCsvTables) {
     if ($allCsvTables.size() > 1) {
-        eventBus.subscribe(this, "TableFilteredEvent");
         createButtons();
         showTable();
-    }
-
-    this.respond = function(event) {
-        if (event.type === "TableFilteredEvent") {
-            $("#csveraControlPanel").append("<span id='filterDisplay" + event.tableId + "' class='filterDisplay'><b>Filter:</b> " + event.tableId + " => " + event.column + " = " + event.criterion + "</span>");
-        }
     }
 
     function showTable() {

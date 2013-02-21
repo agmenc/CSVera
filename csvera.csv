@@ -1,11 +1,8 @@
 Project,Started     ,Finished    ,Estimate,Epic     ,Description
-CSVera ,12 Feb 2013 ,13 Feb 2013 ,1       ,EDITING  ,Add a ?table=value filter to the URL so that we can display a particular table on opening
-CSVera ,13 Feb 2013 ,14 Feb 2013 ,1       ,EDITING  ,Add a ?column=value filter to the URL so that we can pass a link to a particular iteration or project or whatever
-CSVera ,21 Jan 2013 ,            ,1       ,BUGS     ,Fix bug where where RAW display does not match scroll position
 CSVera ,            ,            ,1       ,BUGS     ,Only show the instructions once
 CSVera ,21 Jan 2013 ,            ,1       ,BUGS     ,Make CTRL-home work in Windows
 CSVera ,21 Jan 2013 ,            ,1       ,BUGS     ,Fix bug where where page scrolls to start of last table on loading
-CSVera ,14 Feb 2013 ,            ,1       ,EDITING  ,Show the current filter in the control panel
+CSVera ,14 Feb 2013 ,21 Feb 2013 ,1       ,EDITING  ,Show the current filter in the control panel - CHANGED - show in URL, instead
 CSVera ,14 Feb 2013 ,            ,1       ,EDITING  ,Scroll to top on load (not 80% of way to bottom)
 CSVera ,            ,            ,1       ,EDITING  ,Allow user to clear the current filter in the control panel
 CSVera ,            ,            ,1       ,EDITING  ,Change the URL when a table or column name filter is applied so that it can be copied
@@ -27,3 +24,6 @@ CSVera ,            ,            ,1       ,BOOTSTRAP,Adapt edit fields
 CSVera ,            ,            ,1       ,BOOTSTRAP,Adapt drop-downs
 CSVera ,            ,            ,1       ,DATA     ,Pad columns (except the last) out to the width of the widest value
 CSVera ,            ,            ,3       ,DATA     ,Handle data containing commas
+CSVera ,12 Feb 2013 ,13 Feb 2013 ,1       ,EDITING  ,Add a ?table=value filter to the URL so that we can display a particular table on opening
+CSVera ,13 Feb 2013 ,14 Feb 2013 ,1       ,EDITING  ,Add a ?column=value filter to the URL so that we can pass a link to a particular iteration or project or whatever
+CSVera ,21 Jan 2013 ,21 Feb 2013 ,1       ,BUGS     ,Fix bug where where RAW display does not match scroll position
