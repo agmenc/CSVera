@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5562192f-9b59-44ff-a99d-23df144706ae" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csvera.csv" afterPath="$PROJECT_DIR$/csvera.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="features.iws" />
@@ -11,13 +12,13 @@
     <file path="/save.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358164031609" ignored="false" />
     <file path="/features.css" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358281693052" ignored="false" />
     <file path="/tableEditor.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358512757640" ignored="false" />
-    <file path="/fragment.java" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1361464490982" ignored="false" />
+    <file path="/fragment.java" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1362073425855" ignored="false" />
     <file path="/tableLoader.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358176623339" ignored="false" />
     <file path="/csvExtractor.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358182672355" ignored="false" />
     <file path="/filter.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358272186436" ignored="false" />
     <file path="/fragment.js2" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1360776776500" ignored="false" />
     <file path="/tableFilterer.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358362005123" ignored="false" />
-    <file path="/Dummy.txt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1361469350197" ignored="false" />
+    <file path="/Dummy.txt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1362311469478" ignored="false" />
     <file path="/README.md" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358780916497" ignored="false" />
     <file path="/a.java" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358458603655" ignored="false" />
     <file path="/csvera.csv" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1360261506136" ignored="false" />
@@ -41,8 +42,8 @@
     <file path="$PROJECT_DIR$/../lijq/build.sbt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1359719063292" ignored="false" />
     <file path="$PROJECT_DIR$/../lijq/sbt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1359719031759" ignored="false" />
     <file path="$PROJECT_DIR$/../lijq/publish.sh" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1359718900737" ignored="false" />
-    <file path="$PROJECT_DIR$/../pettswood/build.sbt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1361464575562" ignored="false" />
-    <file path="$PROJECT_DIR$/../pettswood/publish.sh" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1361464595228" ignored="false" />
+    <file path="$PROJECT_DIR$/../pettswood/build.sbt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1362046422329" ignored="false" />
+    <file path="$PROJECT_DIR$/../pettswood/publish.sh" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1362073206735" ignored="false" />
     <file path="$PROJECT_DIR$/../pettswood/project/plugins.sbt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1359737273439" ignored="false" />
     <file path="$PROJECT_DIR$/../pettswood/sbt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1359737201729" ignored="false" />
     <file path="$PROJECT_DIR$/../pettswood/src/main/scala/org/pettswood/parsers/xml/scala/TraverseCopy.scala" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1359739361522" ignored="false" />
@@ -56,6 +57,27 @@
     <file path="/TableFilterer.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1361179273225" ignored="false" />
     <file path="/EventBus.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1361208580903" ignored="false" />
     <file path="$PROJECT_DIR$/../pettswood/src/main/scala/org/pettswood/package.scala" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1361464497240" ignored="false" />
+    <file path="/publish.sh" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1362073207923" ignored="false" />
+    <file path="$PROJECT_DIR$/../glue3/src/test/scala/uk/co/vivalogic/glue/domain/ZooSpec.scala" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1361741620448" ignored="false" />
+    <file path="$PROJECT_DIR$/../glue3/src/main/scala/uk/co/vivalogic/glue.domain/beast/BelkinWemoOnOffLight.scala" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1361782798674" ignored="false" />
+    <file path="/ZooSpec.scala" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1361726782280" ignored="false" />
+    <file path="$PROJECT_DIR$/../glue3/src/main/scala/uk/co/vivalogic/glue.domain/beast/Beast.scala" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1361726481985" ignored="false" />
+    <file path="/Beast.scala" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1361726482990" ignored="false" />
+    <file path="$PROJECT_DIR$/../glue3/src/main/scala/code/Zoo.scala" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1361782812157" ignored="false" />
+    <file path="/Zoo.scala" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1361734500363" ignored="false" />
+    <file path="/BelkinWemoOnOffLight.scala" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1361782681547" ignored="false" />
+    <file path="$PROJECT_DIR$/../glue3/src/main/scala/uk/co/vivalogic/glue.domain/beast/OnOffLight.scala" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1361782872774" ignored="false" />
+    <file path="$PROJECT_DIR$/../pettswood/src/main/scala/org/pettswood/MultiRow.scala" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1362042828577" ignored="false" />
+    <file path="/MultiRow.scala" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1362042665093" ignored="false" />
+    <file path="$PROJECT_DIR$/../pettswood/src/test/scala/org/pettswood/specification/concepts/Results.scala" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1362046372461" ignored="false" />
+    <file path="/Results.scala" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1362042935970" ignored="false" />
+    <file path="$PROJECT_DIR$/../pettswood/src/test/scala/org/pettswood/specification/concepts/Temp.scala" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1362043313789" ignored="false" />
+    <file path="/Temp.scala" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1362043176090" ignored="false" />
+    <file path="$PROJECT_DIR$/../pettswood/src/test/scala/org/pettswood/specification/concepts/TimedResults.scala" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1362043322844" ignored="false" />
+    <file path="$PROJECT_DIR$/../pettswood/src/test/scala/org/pettswood/specification/concepts/Pettswood.scala" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1362043364592" ignored="false" />
+    <file path="/Pettswood.scala" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1362043366043" ignored="false" />
+    <file path="$PROJECT_DIR$/../pettswood/src/test/scala/PettswoodFeatures.scala" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1362043371672" ignored="false" />
+    <file path="/PettswoodFeatures.scala" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1362043372766" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +92,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -104,7 +127,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -119,15 +141,6 @@
         <entry file="file://$PROJECT_DIR$/src/QueryParam.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="17" column="5" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="csvera.csv" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/csvera.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="62" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -171,10 +184,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TableEditor.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TableEditor.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TableEditor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="31" selection-start="899" selection-end="899" vertical-scroll-proportion="0.4752066">
+            <state line="41" column="0" selection-start="1389" selection-end="1389" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -201,7 +214,7 @@
       <file leaf-file-name="CSVera.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CSVera.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="47" selection-start="366" selection-end="366" vertical-scroll-proportion="-5.0">
+            <state line="8" column="47" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -220,6 +233,15 @@
         <entry file="file://$PROJECT_DIR$/package.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state line="30" column="0" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="csvera.csv" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/csvera.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="64" selection-start="456" selection-end="456" vertical-scroll-proportion="0.08264463">
               <folding />
             </state>
           </provider>
@@ -413,17 +435,17 @@
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Project" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="139" />
-    <property name="project.structure.proportion" value="0.15" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="141" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="139" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="139" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../codasetManaged/thredz" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="144" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="938" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="938" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="938" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="144" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="141" />
     <property name="GoToClass.includeJavaFiles" value="false" />
@@ -435,14 +457,14 @@
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Bash" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -503,6 +525,13 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -522,13 +551,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="0" />
@@ -570,7 +592,6 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.394095" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -579,7 +600,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.6705277" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -587,7 +607,9 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PMIP" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952926" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -685,9 +707,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DatePicker.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="234" column="18" selection-start="4507" selection-end="4507" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="234" column="18" selection-start="4507" selection-end="4507" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -712,30 +732,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TableLoader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="46" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="46" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/download/files/CSVera.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="9" selection-start="345" selection-end="345" vertical-scroll-proportion="-6.25">
-          <folding />
-        </state>
+        <state line="10" column="9" selection-start="345" selection-end="345" vertical-scroll-proportion="-6.25" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/CSVera.template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="9" selection-start="351" selection-end="351" vertical-scroll-proportion="-6.25">
-          <folding />
-        </state>
+        <state line="10" column="9" selection-start="351" selection-end="351" vertical-scroll-proportion="-6.25" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CsvExtractor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="43" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="4" column="43" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/csvera-complete.csv">
@@ -745,23 +757,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/download/files/underscore-min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="4780" selection-start="4776" selection-end="4783" vertical-scroll-proportion="0.68370163">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="4780" selection-start="4776" selection-end="4783" vertical-scroll-proportion="0.68370163" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/ECMAScript.js2">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="18" selection-start="645" selection-end="645" vertical-scroll-proportion="0.24032043">
-          <folding />
-        </state>
+        <state line="12" column="18" selection-start="645" selection-end="645" vertical-scroll-proportion="0.24032043" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/csvera.css">
@@ -773,7 +774,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CSVera.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="47" selection-start="366" selection-end="366" vertical-scroll-proportion="-5.0">
+        <state line="8" column="47" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -787,9 +788,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSVera.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ControlPanel.js">
@@ -822,13 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csvera.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="62" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/RawEditor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="10" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
@@ -843,9 +835,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TableEditor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="31" selection-start="899" selection-end="899" vertical-scroll-proportion="0.4752066">
+        <state line="41" column="0" selection-start="1389" selection-end="1389" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvera.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="64" selection-start="456" selection-end="456" vertical-scroll-proportion="0.08264463">
           <folding />
         </state>
       </provider>
