@@ -33,13 +33,18 @@ function TableFilterer(tableId) {
             $(targetTableId).find("thead .filtered").each(function() {
                 $(this).removeClass("filtered");
             });
-            filter($(this).val().trim());
+            var selectedOption = $(this).val().trim();
+            (selectedOption === "Show All") ? unfilter() : filter(selectedOption);
             restoreHeading();
         }
 
         function restoreHeading() {
             $columnHeading.html(originalText);
             prime();
+        }
+
+        function unfilter() {
+            $(targetTableId).find("tbody tr").show();
         }
 
         function filter(criterion) {
@@ -56,6 +61,8 @@ function TableFilterer(tableId) {
             var values = _.uniq($(targetTableId).find("tr").map(function() {
                 return $($(this).children("td").get(columnIndex)).text();
             }).get());
+
+            values.splice(1, 0, "Show All");
 
             return _.map(values, toOption).join("");
         }
