@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5562192f-9b59-44ff-a99d-23df144706ae" name="Default" comment="">
+    <list default="true" id="5562192f-9b59-44ff-a99d-23df144706ae" name="Default" comment="Tidy up param(k, v)">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/QueryParam.js" afterPath="$PROJECT_DIR$/src/QueryParam.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csvera.csv" afterPath="$PROJECT_DIR$/csvera.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="features.iws" />
@@ -16,17 +17,17 @@
     <file path="/tableLoader.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358176623339" ignored="false" />
     <file path="/csvExtractor.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358182672355" ignored="false" />
     <file path="/filter.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358272186436" ignored="false" />
-    <file path="/fragment.js2" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1360776776500" ignored="false" />
+    <file path="/fragment.js2" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1362646665194" ignored="false" />
     <file path="/tableFilterer.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358362005123" ignored="false" />
-    <file path="/Dummy.txt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1362644937275" ignored="false" />
+    <file path="/Dummy.txt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1363079879062" ignored="false" />
     <file path="/README.md" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358780916497" ignored="false" />
     <file path="/a.java" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358458603655" ignored="false" />
-    <file path="/csvera.csv" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1360261506136" ignored="false" />
+    <file path="/csvera.csv" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1362757488438" ignored="false" />
     <file path="/csvera.css" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1361262915063" ignored="false" />
     <file path="/keyBindings.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358538258812" ignored="false" />
     <file path="/CSVera.html" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1360870845280" ignored="false" />
     <file path="/addRow.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358418821203" ignored="false" />
-    <file path="/a.dummy" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1360776303541" ignored="false" />
+    <file path="/a.dummy" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1362647468313" ignored="false" />
     <file path="/selectionManager.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358456704858" ignored="false" />
     <file path="/DatePicker.html" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358460385105" ignored="false" />
     <file path="/InlineCellEditor.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358781865975" ignored="false" />
@@ -53,8 +54,8 @@
     <file path="$PROJECT_DIR$/../glue3/src/main/scala/code/auth/snippet/UserScreens.scala" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1359919815781" ignored="false" />
     <file path="/ControlPanel.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1361436832412" ignored="false" />
     <file path="$PROJECT_DIR$/../spray/site/src/main/scala/spray/site/SiteServiceActor.scala" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1360603897068" ignored="false" />
-    <file path="/QueryParam.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1362590686861" ignored="false" />
-    <file path="/TableFilterer.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1362388736005" ignored="false" />
+    <file path="/QueryParam.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1363079518396" ignored="false" />
+    <file path="/TableFilterer.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1362757186728" ignored="false" />
     <file path="/EventBus.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1361208580903" ignored="false" />
     <file path="$PROJECT_DIR$/../pettswood/src/main/scala/org/pettswood/package.scala" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1361464497240" ignored="false" />
     <file path="/publish.sh" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1362073207923" ignored="false" />
@@ -140,7 +141,7 @@
       <file leaf-file-name="QueryParam.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/QueryParam.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="41" selection-start="709" selection-end="709" vertical-scroll-proportion="0.5944056">
+            <state line="2" column="88" selection-start="205" selection-end="205" vertical-scroll-proportion="0.040053405">
               <folding />
             </state>
           </provider>
@@ -160,7 +161,7 @@
       <file leaf-file-name="TableFilterer.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TableFilterer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="30" selection-start="1887" selection-end="1887" vertical-scroll-proportion="0.0">
+            <state line="45" column="35" selection-start="1529" selection-end="1529" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -169,7 +170,7 @@
       <file leaf-file-name="csvera.csv" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/csvera.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="71" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+            <state line="32" column="145" selection-start="3481" selection-end="3481" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -217,8 +218,8 @@
         <option value="$PROJECT_DIR$/src/KeyBindings.js" />
         <option value="$PROJECT_DIR$/src/TableEditor.js" />
         <option value="$PROJECT_DIR$/src/Constructor.js" />
-        <option value="$PROJECT_DIR$/csvera.csv" />
         <option value="$PROJECT_DIR$/src/TableFilterer.js" />
+        <option value="$PROJECT_DIR$/csvera.csv" />
         <option value="$PROJECT_DIR$/src/QueryParam.js" />
       </list>
     </option>
@@ -276,6 +277,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -356,8 +359,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -520,7 +521,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.394095" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4118404" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4118404" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -581,7 +582,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Git is failing to understand capitalization again" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tidy up param(k, v)" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -594,7 +595,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Update plan" />
     <MESSAGE value="Check preconditions before trying to construct csvera." />
     <MESSAGE value="Print instructions to the Javascript console" />
     <MESSAGE value="Update to version 1.2" />
@@ -619,6 +619,7 @@
     <MESSAGE value="Update list" />
     <MESSAGE value="Make URL updating work. Update list." />
     <MESSAGE value="Git is failing to understand capitalization again" />
+    <MESSAGE value="Tidy up param(k, v)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -744,13 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/ECMAScript.js2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="25" selection-start="1799" selection-end="1799" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="0" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0">
@@ -758,9 +752,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/ECMAScript.js2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="21" selection-start="680" selection-end="680" vertical-scroll-proportion="0.28037384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/csvera.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="71" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+        <state line="32" column="145" selection-start="3481" selection-end="3481" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TableFilterer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="35" selection-start="1529" selection-end="1529" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -774,16 +782,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TableFilterer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="30" selection-start="1887" selection-end="1887" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/QueryParam.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="41" selection-start="709" selection-end="709" vertical-scroll-proportion="0.5944056">
+        <state line="2" column="88" selection-start="205" selection-end="205" vertical-scroll-proportion="0.040053405">
           <folding />
         </state>
       </provider>
