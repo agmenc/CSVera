@@ -1,5 +1,5 @@
 Project,Started     ,Finished    ,Estimate,Epic     ,Description
-CSVera ,13 Mar 2013 ,            ,1       ,BUGS     ,Make the header column stay red when filtering on a second column
+CSVera ,13 Mar 2013 ,13 Mar 2013 ,1       ,BUGS     ,Make the header column stay red when filtering on a second column
 CSVera ,13 Mar 2013 ,            ,1       ,BUGS     ,Stop URL pushState() from putting ?=undefined in the URL
 CSVera ,21 Jan 2013 ,            ,1       ,BUGS     ,Make CTRL-home work in Windows
 CSVera ,12 Mar 2013 ,13 Mar 2013 ,2       ,EDITING  ,Make column filtering only affect that column (i.e. showAll and filter)

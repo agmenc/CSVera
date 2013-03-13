@@ -54,9 +54,6 @@ function TableFilterer(tableId) {
         }
 
         function chooseOption() {
-            $(targetTableId).find("thead .filtered").each(function() {
-                $(this).removeClass("filtered");
-            });
             var selectedOption = $(this).val().trim();
             (selectedOption === "Show All") ? unfilter() : filter(selectedOption);
             restoreHeading();
@@ -69,6 +66,7 @@ function TableFilterer(tableId) {
 
         function unfilter() {
             deactivate(self);
+            $columnHeading.removeClass("filtered");
             param(originalText, "")
         }
 

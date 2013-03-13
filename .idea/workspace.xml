@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5562192f-9b59-44ff-a99d-23df144706ae" name="Default" comment="Fix some queryURL display bugs and add a wishlist to QueryParam.js">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csvera.csv" afterPath="$PROJECT_DIR$/csvera.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="features.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,7 +17,7 @@
     <file path="/filter.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358272186436" ignored="false" />
     <file path="/fragment.js2" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1362646665194" ignored="false" />
     <file path="/tableFilterer.js" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358362005123" ignored="false" />
-    <file path="/Dummy.txt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1363198731282" ignored="false" />
+    <file path="/Dummy.txt" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1363199763567" ignored="false" />
     <file path="/README.md" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358780916497" ignored="false" />
     <file path="/a.java" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1358458603655" ignored="false" />
     <file path="/csvera.csv" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1362757488438" ignored="false" />
@@ -78,6 +77,7 @@
     <file path="/Pettswood.scala" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1362043366043" ignored="false" />
     <file path="$PROJECT_DIR$/../pettswood/src/test/scala/PettswoodFeatures.scala" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1362043371672" ignored="false" />
     <file path="/PettswoodFeatures.scala" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1362043372766" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="5562192f-9b59-44ff-a99d-23df144706ae" time="1363200106933" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,10 +157,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TableFilterer.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TableFilterer.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TableFilterer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="41" selection-start="1667" selection-end="1667" vertical-scroll-proportion="0.39118826">
+            <state line="66" column="12" selection-start="2115" selection-end="2115" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="csvera.csv" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/csvera.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="145" selection-start="3835" selection-end="3835" vertical-scroll-proportion="0.7009346">
               <folding />
             </state>
           </provider>
@@ -209,8 +218,8 @@
         <option value="$PROJECT_DIR$/src/TableEditor.js" />
         <option value="$PROJECT_DIR$/src/Constructor.js" />
         <option value="$PROJECT_DIR$/src/QueryParam.js" />
-        <option value="$PROJECT_DIR$/csvera.csv" />
         <option value="$PROJECT_DIR$/src/TableFilterer.js" />
+        <option value="$PROJECT_DIR$/csvera.csv" />
       </list>
     </option>
   </component>
@@ -381,7 +390,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Bash" />
+    <property name="options.lastSelected" value="preferences.sourceCode.General" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -756,11 +765,6 @@
         <state line="37" column="25" selection-start="1569" selection-end="1569" vertical-scroll-proportion="0.25233644" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csvera.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="23" selection-start="401" selection-end="401" vertical-scroll-proportion="0.08010681" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/download/files/csvera-1.6.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="178" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
@@ -770,7 +774,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TableFilterer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="41" selection-start="1667" selection-end="1667" vertical-scroll-proportion="0.39118826">
+        <state line="66" column="12" selection-start="2115" selection-end="2115" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvera.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="145" selection-start="3835" selection-end="3835" vertical-scroll-proportion="0.7009346">
           <folding />
         </state>
       </provider>
