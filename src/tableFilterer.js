@@ -1,19 +1,43 @@
 function TableFilterer(tableId) {
     var targetTableId = "#" + tableId;
+    var activeFilters = [];
 
     $(targetTableId).find("thead td").each(function(index) {
         new ColumnFilterer($(this), index);
     });
 
-    function ColumnFilterer($columnHeading, columnIndex) {
+    function activate(filter) {
+        activeFilters.push(filter);
+        applyFilters();
+    }
 
+    function deactivate(filter) {
+        activeFilters = _.without(activeFilters, filter)
+        applyFilters();
+    }
+
+    function applyFilters() {
+        $(targetTableId).find("tbody tr").each(function() {
+            var $row = $(this);
+            var accepted = _.reduce(activeFilters, function (memo, filter) { return memo && filter.accept($row) }, true);
+            if (accepted) $(this).show();
+            else $(this).hide();
+        });
+    }
+
+    function ColumnFilterer($columnHeading, columnIndex) {
+        var self = this;
         var originalText = $columnHeading.html();
+        var currentCriterion = "";
+
+        self.accept = function($row) {
+            var nthChild = $($row.children("td").get(columnIndex));
+            return nthChild.text().trim() === currentCriterion;
+        };
 
         prime();
 
-        if (param(originalText.trim())) {
-            filter(param(originalText.trim()));
-        }
+        if (param(originalText)) filter(param(originalText));
 
         function prime() {
             $columnHeading.on("click.ColumnFilterer", showOptions);
@@ -44,17 +68,15 @@ function TableFilterer(tableId) {
         }
 
         function unfilter() {
-            $(targetTableId).find("tbody tr").show();
+            deactivate(self);
+            param(originalText, "")
         }
 
         function filter(criterion) {
-            $(targetTableId).find("tbody tr").each(function() {
-                var nthChild = $($(this).children("td").get(columnIndex));
-                if (nthChild.text().trim() === criterion) $(this).show();
-                else $(this).hide();
-            });
+            currentCriterion = criterion;
+            activate(self);
             $columnHeading.addClass("filtered");
-            param(originalText.trim(), criterion);
+            param(originalText, criterion);
         }
 
         function options() {
