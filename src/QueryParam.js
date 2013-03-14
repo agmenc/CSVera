@@ -10,7 +10,7 @@ function param(name, value) {
 
     function setParam(name, value) {
         var params = allParams();
-        if (value === "") params = cloneExcept(params, name)
+        if (value === "Show All") params = cloneExcept(params, name)
         else params[name] = value;
         setQueryParams.call(this, params);
     }

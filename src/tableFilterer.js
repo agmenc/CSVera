@@ -65,12 +65,14 @@ function TableFilterer(tableId) {
         }
 
         function unfilter() {
+//            console.log("unfiltering: " + originalText + " == " + currentCriterion);
             deactivate(self);
             $columnHeading.removeClass("filtered");
-            param(originalText, "")
+            param(originalText, "Show All")
         }
 
         function filter(criterion) {
+//            console.log("filtering: [" + originalText + "] == [" + criterion + "] (" + (typeof criterion) + ")");
             currentCriterion = criterion;
             activate(self);
             $columnHeading.addClass("filtered");
