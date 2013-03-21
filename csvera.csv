@@ -1,7 +1,7 @@
 Project,Started     ,Finished    ,Estimate,Epic     ,Description
 CSVera ,13 Mar 2013 ,13 Mar 2013 ,1       ,BUGS     ,Make the header column stay red when filtering on a second column
-CSVera ,14 Mar 2013 ,            ,1       ,BUGS     ,Make URL pushState() correctly handle empty filter criteria (i.e. show them in the URL)
-CSVera ,14 Mar 2013 ,            ,1       ,BUGS     ,Stop URL pushState() from putting ?=undefined in the URL when we filter a column and the URL ends with "CSVera.html?"
+CSVera ,14 Mar 2013 ,14 Mar 2013 ,1       ,BUGS     ,Make URL pushState() correctly handle empty filter criteria (i.e. show them in the URL)
+CSVera ,14 Mar 2013 ,21 Mar 2013 ,1       ,BUGS     ,Stop URL pushState() from putting ?=undefined in the URL when we filter a column and the URL ends with "CSVera.html?"
 CSVera ,21 Jan 2013 ,            ,1       ,BUGS     ,Make CTRL-home work in Windows
 CSVera ,12 Mar 2013 ,13 Mar 2013 ,2       ,EDITING  ,Make column filtering only affect that column (i.e. showAll and filter)
 CSVera ,            ,            ,1       ,EDITING  ,Allow user to filter multiple columns
