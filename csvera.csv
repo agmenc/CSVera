@@ -1,6 +1,5 @@
 Project,Started     ,Finished    ,Estimate,Epic     ,Description
 CSVera ,21 Jan 2013 ,            ,1       ,BUGS     ,Make CTRL-home work in Windows
-CSVera ,            ,            ,1       ,EDITING  ,Show the currently-selected table in the URL query params
 CSVera ,            ,            ,1       ,EDITING  ,Allow user to clear the current filter in the control panel
 CSVera ,            ,            ,1       ,EDITING  ,Make all changed rows and cells a different colour so that we remember to save (sadly not automatic)
 CSVera ,            ,            ,1       ,EDITING  ,Provide one-time drop-downs for cells in new row (with a free text option)
@@ -36,3 +35,4 @@ CSVera ,14 Mar 2013 ,14 Mar 2013 ,1       ,BUGS     ,Make URL pushState() correc
 CSVera ,14 Mar 2013 ,21 Mar 2013 ,1       ,BUGS     ,Stop URL pushState() from putting ?=undefined in the URL when we filter a column and the URL ends with "CSVera.html?"
 CSVera ,21 Mar 2013 ,21 Mar 2013 ,1       ,EDITING  ,Allow user to filter multiple columns
 CSVera ,21 Jan 2013 ,21 Mar 2013 ,1       ,BUGS     ,If there are no filters there should be no ? at the end of the URL
+CSVera ,21 Jan 2013 ,21 Jan 2013 ,1       ,EDITING  ,Show the currently-selected table in the URL query params

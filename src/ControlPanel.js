@@ -32,6 +32,7 @@ function ControlPanel($allCsvTables) {
             $table.show();
             $controlPanel.find("button").css("font-weight", "normal");
             $(this).css("font-weight", "bold");
+            param("table", id($table));
         });
     }
 
