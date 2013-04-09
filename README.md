@@ -33,6 +33,4 @@ Windows:
 
 CSVera does not yet do:
 * Saving back to the original file. Javascript isn't allowed to do this. The workarounds are hideous. I might do one later.
-* Multi-column filtering
-* Hiding of rows based on empty/full cells
 * Column-click sorting
