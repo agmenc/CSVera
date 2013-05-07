@@ -17,6 +17,7 @@ CSVera is a planning and estimating tool, disguised as an in-browser CSV editor.
 * Use `CTRL-a` then `CTRL-c` to copy the contents back to the original file (or `CMD-a` and `CMD-c`)
 
 ## Abusage
+### Chrome
 Google Chrome sucks a bit when it comes to security overkill. It won't let one local file AJAX-load another, since `file:///` URLs don't have any origin, therefore violate the same origin policy, even when they have the same origin. The workaround is to start Chrome with this check disabled.
 
 Mac:
@@ -28,6 +29,12 @@ Windows:
 ```
 "C:\Documents and Settings\username\Local Settings\Application Data\Google\Chrome\Application\chrome.exe"   --allow-file-access-from-files
 ```
+
+### Firefox
+Go to `about:config` (type it in the address bar) and set `security.fileuri.strict_origin_policy` to `false`
+
+### IE
+Versions less than IE 9 are aggressively unsupported. IE 9 is just untested.
 
 ## Unfeatures
 
